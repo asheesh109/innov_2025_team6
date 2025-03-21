@@ -63,6 +63,51 @@ function saveScoreToFirebase(score, totalQuestions, bestScore) {
     });
 }
 
+// New function to fetch all user scores and calculate percentile
+function calculatePercentileRanking(currentScore, totalQuestions) {
+  return new Promise((resolve, reject) => {
+    // Get all scores from the database
+    database.ref('scores').once('value')
+      .then((snapshot) => {
+        const allScores = [];
+        const allUsers = snapshot.val() || {};
+
+        // Extract percentage scores from all users
+        Object.values(allUsers).forEach(user => {
+          if (user.percentage !== undefined) {
+            allScores.push(user.percentage);
+          }
+        });
+
+        if (allScores.length === 0) {
+          resolve({
+            percentile: 100,
+            totalUsers: 0
+          });
+          return;
+        }
+
+        // Calculate current user's percentage
+        const currentPercentage = Math.round((currentScore / totalQuestions) * 100);
+
+        // Count users with lower scores
+        const usersWithLowerScores = allScores.filter(score => score < currentPercentage).length;
+
+        // Calculate percentile (percentage of users with equal or lower scores)
+        const percentile = Math.round((usersWithLowerScores / allScores.length) * 100);
+
+        resolve({
+          percentile: percentile,
+          totalUsers: allScores.length - 1 // Subtract current user
+        });
+      })
+      .catch((error) => {
+        console.error("Error fetching scores: ", error);
+        reject(error);
+      });
+  });
+}
+
 // Create and add home button at the start - moved to bottom and only shown on first question
 function addHomeButton() {
   // Create container for the button (for positioning)
@@ -167,7 +212,6 @@ async function loadQuestion() {
         "correct_option": 1,
         "plant_info": "Ashwagandha (Withania somnifera) is an adaptogenic herb. Its root is used in Ayurveda to combat stress, improve sleep quality, and boost overall vitality."
       },
-
       {
         "id": 5,
         "question": "Which of these plants thrives in sandy, arid soil and is drought-tolerant?",
@@ -342,6 +386,7 @@ async function loadQuestion() {
         "correct_option": 0,
         "plant_info": "Amla (Indian Gooseberry) contains 20 times more vitamin C than oranges. It's a key ingredient in many Ayurvedic formulations and is known for its immunity-boosting properties."
       }
+
     ];
 
     // Add the home button to the quiz container
@@ -454,7 +499,7 @@ function getGradeAndMessage(score, totalQuestions) {
 }
 
 // Function to display results with the current score and best score
-function displayResults(grade, message, score, totalQuestions, bestScore, isNewHighScore) {
+function displayResults(grade, message, score, totalQuestions, bestScore, isNewHighScore, percentileData) {
   // Create a results container
   const resultsContainer = document.createElement("div");
   resultsContainer.style.textAlign = "center";
@@ -482,6 +527,39 @@ function displayResults(grade, message, score, totalQuestions, bestScore, isNewH
   bestScoreElement.style.fontWeight = "bold";
   bestScoreElement.style.color = "#1e5631";
   bestScoreElement.style.marginTop = "10px";
+
+  // Add percentile ranking element
+  const percentileElement = document.createElement("div");
+  percentileElement.style.marginTop = "15px";
+  percentileElement.style.padding = "10px";
+  percentileElement.style.backgroundColor = "#e8f5e9";
+  percentileElement.style.borderRadius = "8px";
+  percentileElement.style.border = "1px solid #a5d6a7";
+
+  // Add title for percentile section
+  const percentileTitle = document.createElement("h4");
+  percentileTitle.textContent = "How Your Score Compares";
+  percentileTitle.style.margin = "5px 0 10px 0";
+  percentileTitle.style.color = "#2e7d32";
+  percentileElement.appendChild(percentileTitle);
+
+  // Add percentile info
+  const percentileInfo = document.createElement("p");
+  if (percentileData.totalUsers > 0) {
+    percentileInfo.textContent = `Your score is better than ${percentileData.percentile}% of all quiz takers!`;
+    percentileInfo.style.fontWeight = "bold";
+
+    // Add smaller text with number of users compared against
+    const usersInfo = document.createElement("p");
+    usersInfo.textContent = `(Compared with ${percentileData.totalUsers} other ${percentileData.totalUsers === 1 ? 'user' : 'users'})`;
+    usersInfo.style.fontSize = "12px";
+    usersInfo.style.opacity = "0.8";
+    usersInfo.style.marginTop = "5px";
+    percentileElement.appendChild(usersInfo);
+  } else {
+    percentileInfo.textContent = "You're our first quiz taker! Complete the quiz again to see how you compare with others.";
+  }
+  percentileElement.appendChild(percentileInfo);
 
   // If this is a new high score, add a congratulatory message
   if (isNewHighScore && score > 0) {
@@ -568,6 +646,7 @@ function displayResults(grade, message, score, totalQuestions, bestScore, isNewH
   resultsContainer.appendChild(gradeElement);
   resultsContainer.appendChild(scoreElement);
   resultsContainer.appendChild(bestScoreElement);
+  resultsContainer.appendChild(percentileElement);
   resultsContainer.appendChild(messageElement);
   resultsContainer.appendChild(buttonsContainer);
 
@@ -630,18 +709,28 @@ next.addEventListener("click", () => {
           // Save score to Firebase with the new best score
           saveScoreToFirebase(score, a.length, newBestScore);
 
-          // Display final score, grade, and motivational message
-          const { grade, message } = getGradeAndMessage(score, a.length);
+          // First calculate the percentile ranking
+          calculatePercentileRanking(score, a.length)
+            .then(percentileData => {
+              // Display final score, grade, and motivational message
+              const { grade, message } = getGradeAndMessage(score, a.length);
 
-          // Create and show results with the correct best score
-          displayResults(grade, message, score, a.length, newBestScore, isNewHighScore);
+              // Create and show results with the correct best score and percentile
+              displayResults(grade, message, score, a.length, newBestScore, isNewHighScore, percentileData);
+            })
+            .catch(error => {
+              console.error("Error calculating percentile:", error);
+              // Display results without percentile data if there was an error
+              const { grade, message } = getGradeAndMessage(score, a.length);
+              displayResults(grade, message, score, a.length, newBestScore, isNewHighScore, { percentile: null, totalUsers: 0 });
+            });
         })
         .catch((error) => {
           console.error("Error retrieving best score: ", error);
 
           // Still display results even if there's an error
           const { grade, message } = getGradeAndMessage(score, a.length);
-          displayResults(grade, message, score, a.length, score, true);
+          displayResults(grade, message, score, a.length, score, true, { percentile: null, totalUsers: 0 });
         });
 
       // Hide the next button
