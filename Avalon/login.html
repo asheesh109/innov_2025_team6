@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlantoPedia</title>
+  <!-- Firebase SDK -->
+  <link rel="stylesheet" href="login.css">
+  <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.22.2/firebase-app-compat.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.22.2/firebase-auth-compat.min.js"></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- Background video element -->
+  <video autoplay muted loop id="background-video">
+    <source src="./assets/videos/logbackimg.mp4" type="video/mp4">
+    <!-- Fallback message if video doesn't load -->
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay to adjust video contrast -->
+  <div class="overlay"></div>
+
+  <div class="container">
+    <div class="header">
+      <h2>Welcome</h2>
+      <div class="tab-control">
+        <button class="tab-btn active" data-tab="login">Login</button>
+        <button class="tab-btn" data-tab="signup">Sign Up</button>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <!-- Login Form -->
+      <div class="form-panel active" id="login-panel">
+        <form id="login-form">
+          <div class="form-group">
+            <label for="login-email">Email Address</label>
+            <input type="email" id="login-email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+          </div>
+          <div class="checkbox-group">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Remember me</label>
+          </div>
+          <button type="submit" id="login-button">
+            <span class="spinner"></span>
+            Login
+          </button>
+          <a href="#" class="forgot-password" id="forgot-password-link">Forgot Password?</a>
+        </form>
+
+        <div class="divider">OR</div>
+
+        <a href="index.html"> <button type="button" id="guest-login-button" class="guest-login-btn">
+          <span class="spinner"></span>
+          Continue as Guest
+        </button></a> 
+
+        <div class="form-footer">
+          <p>Don't have an account? <a href="#" class="switch-form" data-tab="signup">Sign Up</a></p>
+        </div>
+      </div>
+
+      <!-- Signup Form -->
+      <div class="form-panel" id="signup-panel">
+        <form id="signup-form">
+          <div class="form-group">
+            <label for="signup-email">Email Address</label>
+            <input type="email" id="signup-email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="signup-password">Password</label>
+            <input type="password" id="signup-password" placeholder="Create a password" required>
+            <div class="password-strength">
+              <div class="password-strength-meter" id="password-meter"></div>
+            </div>
+            <p class="password-strength-text" id="password-strength-text">Password strength</p>
+          </div>
+          <div class="form-group">
+            <label for="signup-confirm">Confirm Password</label>
+            <input type="password" id="signup-confirm" placeholder="Confirm your password" required>
+          </div>
+          <button type="submit" id="signup-button">
+            <span class="spinner"></span>
+            Create Account
+          </button>
+        </form>
+
+        <div class="divider">OR</div>
+
+       <a href="index.html"> <button type="button" id="guest-login-button-signup" class="guest-login-btn">
+        <span class="spinner"></span>
+        Continue as Guest
+      </button></a> 
+
+        <div class="form-footer">
+          <p>Already have an account? <a href="#" class="switch-form" data-tab="login">Login</a></p>
+        </div>
+      </div>
+
+      <!-- Reset Password Panel -->
+      <div class="form-panel" id="reset-password-panel">
+        <form id="reset-password-form">
+          <div class="form-group">
+            <label for="reset-email">Email Address</label>
+            <input type="email" id="reset-email" placeholder="Enter your email" required>
+          </div>
+          <button type="submit" id="reset-button">
+            <span class="spinner"></span>
+            Reset Password
+          </button>
+          <p class="form-footer">
+            <button type="button" class="back-to-login">Back to Login</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">
+    <div class="toast-message"></div>
+    <button class="toast-close">&times;</button>
+  </div>
+
+  <script src="login.js" type="text/javascript">
+    // Firebase configuration
+    // Replace these with your Firebase project config
+
+  </script>
+</body>
+
+</html>

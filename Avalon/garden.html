@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Interactive Garden</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+    <link rel="stylesheet" href="garden3d.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <div class="loading-spinner"></div>
+        <h2>Loading Garden...</h2>
+        <p>Please wait while we prepare your virtual garden experience</p>
+    </div>
+    
+    <div class="instructions" style="
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 2px solid rgba(76, 175, 80, 0.15);
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+        color: rgba(44, 62, 80, 0.9);
+        z-index: 1002;
+        transition: all 0.3s ease;
+        max-width: 400px;">
+        <h2 style="margin-top: 0; color: rgba(44, 62, 80, 0.9);">Garden Explorer</h2>
+        <p style="margin-bottom: 15px;">Welcome to the interactive 3D garden! Here's how to use it:</p>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
+                <strong style="color: rgba(76, 175, 80, 0.9);">🖱 Rotate:</strong> Click and drag to look around
+            </li>
+            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
+                <strong style="color: rgba(76, 175, 80, 0.9);">⚡ Zoom:</strong> Use mouse wheel to zoom in/out
+            </li>
+            <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">
+                <strong style="color: rgba(76, 175, 80, 0.9);">👆 Interact:</strong> Click on plants to learn about them
+            </li>
+            <li style="margin-bottom: 0; display: flex; align-items: center; gap: 8px;">
+                <strong style="color: rgba(76, 175, 80, 0.9);">🌞 Day/Night:</strong> Toggle button in bottom right
+            </li>
+        </ul>
+    </div>
+    
+    <canvas id="garden-canvas"></canvas>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+        // Ensure THREE is available globally
+        window.THREE = THREE;
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script>
+        // Sample plant data with images from Google
+        const plantData = [
+            {
+                id: "plant1",
+                name: "Ashwagandha",
+                description: "Ashwagandha is a small, woody shrub that grows about 2 feet in height. It has oval leaves and bell-shaped flowers that contain orange-red berries. The root of the plant is the part most commonly used in herbal medicine. Known as 'Indian Ginseng' or 'Winter Cherry', it has been a staple in Ayurvedic medicine for over 3,000 years. The name 'Ashwagandha' comes from Sanskrit, meaning 'smell of horse', referring both to the root's distinct odor and its traditional belief to impart the vigor and strength of a stallion.",
+                image: "https://files.nccih.nih.gov/ashwagandha-credit-oregon-s-wild-harvest-a-square-medium-res.jpg",
+                careInfo: {
+                    water: "Allow soil to dry out between waterings. Water thoroughly when the top 2-3 inches of soil feel dry",
+                    sunlight: "Bright indirect light. Can tolerate some direct morning sun",
+                    soil: "Well-draining potting mix rich in organic matter"
+                },
+                additionalInfo: "Monstera is a climbing plant in nature and appreciates support to grow upward. The leaves start small and solid, developing their characteristic holes as they mature. Keep away from pets as it's toxic if ingested."
+            },
+            {
+                id: "plant2",
+                name: "Aloe Vera",
+                description: "Aloe Vera is a succulent plant with thick, fleshy leaves that contain a clear gel. The leaves are green to grey-green, with some varieties showing white flecks on the upper and lower stem surfaces. The plant grows in a rosette pattern and can reach 60-100 cm in height. The leaf margins have small, white teeth. Aloe vera produces yellow tubular flowers on a spike that can grow up to 90 cm tall. The plant has been used medicinally for thousands of years across various civilizations including Egypt, Greece, and China. Its name derives from Arabic 'Alloeh' meaning 'shining bitter substance' and Latin 'vera' meaning 'true'.",
+                image: "https://files.nccih.nih.gov/aloe-vera-steven-foster-square.jpg",
+                careInfo: {
+                    water: "Water deeply but infrequently, allowing soil to dry completely between waterings. Less water in winter",
+                    sunlight: "Bright indirect to direct light. Can tolerate partial shade",
+                    soil: "Cactus or succulent mix with good drainage. Add perlite for better drainage"
+                },
+                additionalInfo: "The plant produces offsets or 'pups' that can be separated and replanted. The gel has antibacterial and anti-inflammatory properties. Ideal for both indoor and outdoor growing in warm climates."
+            },
+            {
+                id: "plant3",
+                name: "Cardamom",
+                description: "Cardamom is a perennial herb with long, zingiberaceous leaves and white flowers with blue stripes and yellow borders. The fruit is a small capsule containing numerous small seeds. The plant grows up to 2-4 meters tall and belongs to the ginger family (Zingiberaceae). Known as the 'Queen of Spices', cardamom is the third most expensive spice in the world after saffron and vanilla. There are two main varieties: green cardamom (Elettaria cardamomum) and black cardamom (Amomum subulatum). Green cardamom has a more delicate, sweet flavor while black cardamom has a smokier, more robust taste. The plant produces rhizomes that spread horizontally underground, giving rise to new shoots.",
+                image: "https://www.jiomart.com/images/product/original/rvziuyebic/cloud-farm-hybrid-elam-ancha-elaichi-cardamom-plant-200-mm-cf_o12-product-images-orvziuyebic-p602994104-1-202307071236.jpg?im=Resize=(1000,1000)",
+                careInfo: {
+                    water: "Keep soil consistently moist but not soggy. Sensitive to chlorine in tap water",
+                    sunlight: "Low to medium indirect light. Can tolerate fluorescent lights",
+                    soil: "Rich, loose potting soil with good drainage. Add peat moss for moisture retention"
+                },
+                additionalInfo: "Peace lilies are excellent indicators of when they need water - their leaves will droop dramatically. They prefer high humidity and can benefit from regular misting. Keep away from pets as they're toxic if ingested."
+            },
+            {
+                id: "plant4",
+                name: "Cinnamon",
+                description: "Cinnamon is a small evergreen tree characterized by oval-shaped leaves, thick bark, and a pleasant fragrance. The inner bark is used as a spice and for medicinal purposes. The tree grows to a height of 10-15 meters with a thin crown. Young shoots are green, turning reddish-brown as they mature. The leaves are leathery, 7-18 cm long, with a spicy odor when crushed. Flowers are small, yellowish-white, arranged in panicles. True cinnamon (Cinnamomum verum, also called Ceylon cinnamon) is native to Sri Lanka and southern India, while Cassia cinnamon (Cinnamomum cassia) is a related species commonly used as a less expensive alternative. The bark harvested from the stems of the trees curls into rolls known as 'quills' during the drying process.",
+                image: "https://www.terraorganics.in/image/cache/catalog/Herbals/Cinamon1-900x900.jpg",
+                careInfo: {
+                    water: "Water when top inch of soil is dry. Maintain consistent watering schedule",
+                    sunlight: "Bright indirect light. Can tolerate some direct morning sun",
+                    soil: "Well-draining, nutrient-rich soil. Add orchid bark for better drainage"
+                },
+                additionalInfo: "Fiddle leaf figs prefer stable conditions and may drop leaves when stressed or relocated. Regular rotation helps ensure even growth. Clean leaves regularly to maintain their glossy appearance and help with photosynthesis."
+            },
+            {
+                id: "plant5",
+                name: "Clove",
+                description: "Clove is an aromatic flower bud of an evergreen tree. The buds are harvested when they are pink and then dried until they turn brown. The tree grows up to 8-12 meters tall with large leaves and crimson flowers. The clove tree has a pyramidal shape with grayish bark and large, shiny, leathery leaves that are oppositely arranged. The flower buds initially have a pale hue, gradually turning green and then bright red when ready for harvesting. The term 'clove' comes from the Latin word 'clavus', meaning nail, due to its nail-like appearance. The tree can live for over 100 years and begins producing flower buds after 4-5 years. Each tree can produce up to 34 kg of dried buds annually when mature.",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xAy3BYvpvJ5aVzems4ySVuktW4R5xldRHQ&s",
+                careInfo: {
+                    water: "Allow soil to dry out between waterings. Tolerant of occasional neglect",
+                    sunlight: "Low to bright indirect light. Variegated varieties need more light",
+                    soil: "Standard potting mix with good drainage. Can grow in water too"
+                },
+                additionalInfo: "Pothos is excellent for air purification and can be propagated easily from stem cuttings. It can be grown as a hanging plant or trained to climb. Trim regularly to maintain desired shape and promote bushier growth."
+            },
+            {
+                id: "plant6",
+                name: "Tulsi (Holy Basil)",
+                description: "Tulsi is an aromatic perennial plant with hairy stems and purple-tinged green leaves. It grows to about 1-2 feet in height and is considered sacred in Hindu tradition. There are three main varieties: Rama Tulsi (green leaves), Krishna Tulsi (purple leaves), and Vana Tulsi (wild variety). The plant has a strong, pleasant aroma with notes of clove, lemon, and mint. Tulsi produces small, tubular flowers that are purplish in color, arranged in elongated racemes. The seeds are tiny, yellow to reddish-brown. In Hindu households, Tulsi is often grown in a special structure called 'Tulsi Vrindavan' in the courtyard and is worshipped daily. The name 'Tulsi' comes from Sanskrit, meaning 'the incomparable one', highlighting its revered status.",
+                image: "https://exoticflora.in/cdn/shop/products/8EXgcOzqVM_1080x.jpg?v=1599196405",
+                careInfo: {
+                    water: "Water when top inch of soil is dry. Reduce watering in winter",
+                    sunlight: "Medium to bright indirect light. Can adapt to lower light",
+                    soil: "Well-draining potting mix rich in organic matter. Add perlite for drainage"
+                },
+                additionalInfo: "New leaves emerge from a pink or red sheath and unfurl to reveal their glossy surface. Regular cleaning of leaves helps maintain their shine. The plant produces a milky sap that can be irritating to skin and toxic if ingested."
+            },
+            {
+                id: "plant7",
+                name: "Turmeric",
+                description: "Turmeric is a rhizomatous herbaceous perennial plant of the ginger family. It has yellow-orange rhizomes that are used as a culinary spice and for medicinal purposes. The plant grows up to 1 meter tall with long, narrow leaves arranged alternately on the stem. The leaves are bright green, large (up to 45 cm long), and arranged in two rows. Flowers are pale yellow, grouped in spikes, and emerge from the green bracts. The rhizomes develop underground, forming a complex branching structure with a bright orange-yellow interior when cut. Turmeric has been used in India for thousands of years as a spice, dye, and medicinal herb. The name comes from the Latin 'terra merita' meaning 'meritorious earth', referring to the color of ground turmeric resembling mineral pigments.",
+                image: "https://homesteadandchill.com/wp-content/uploads/2019/09/how-to-grow-turmeric-hands-harvest-feature-e1568474428123-1140x1232.jpeg",
+                careInfo: {
+                    water: "Allow soil to dry completely between waterings. Can survive months without water",
+                    sunlight: "Low to bright indirect light. Tolerates artificial light well",
+                    soil: "Well-draining potting mix. Add succulent mix for better drainage"
+                },
+                additionalInfo: "ZZ plants are excellent air purifiers and can survive in very low light conditions. Their thick rhizomes store water, making them extremely drought-tolerant. All parts of the plant are toxic if ingested, so keep away from pets and children."
+            }
+        ];
+
+        // Create plant info panel
+        function createInfoPanel() {
+            const panel = document.createElement('div');
+            panel.className = 'plant-info-panel';
+            
+            panel.innerHTML = `
+                <div class="info-header">
+                    <h2 class="plant-name">Plant Name</h2>
+                    <button class="close-btn">&times;</button>
+                </div>
+                <div class="info-content">
+                    <div class="plant-image-container">
+                        <img class="plant-image" src="" alt="Plant Image">
+                    </div>
+                    <p class="plant-description">Plant description goes here.</p>
+                    <div class="plant-care-info">
+                        <h3>Care Information</h3>
+                        <ul>
+                            <li><strong>Water:</strong> <span class="water-info"></span></li>
+                            <li><strong>Sunlight:</strong> <span class="sunlight-info"></span></li>
+                            <li><strong>Soil:</strong> <span class="soil-info"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+            
+            document.body.appendChild(panel);
+            
+            // Add close button functionality
+            panel.querySelector('.close-btn').addEventListener('click', () => {
+                panel.classList.remove('active');
+            });
+            
+            return panel;
+        }
+        
+        // Create day/night mode toggle
+        function createModeToggle(garden) {
+            const button = document.createElement('button');
+            button.className = 'mode-toggle';
+            button.textContent = 'Toggle Day/Night';
+            document.body.appendChild(button);
+            
+            button.addEventListener('click', () => {
+                garden.toggleDayNight();
+            });
+        }
+        
+        // Wait for Three.js and its dependencies to load
+        window.addEventListener('load', () => {
+            if (typeof THREE === 'undefined') {
+                console.error('Three.js not loaded');
+                return;
+            }
+            if (typeof THREE.GLTFLoader === 'undefined') {
+                console.error('GLTFLoader not loaded');
+                return;
+            }
+            
+            // Load our garden script after dependencies are ready
+            const gardenScript = document.createElement('script');
+            gardenScript.src = 'garden3d.js';
+            gardenScript.onload = async () => {
+                const canvas = document.getElementById('garden-canvas');
+                const loadingScreen = document.getElementById('loading-screen');
+                
+                // Create info panel
+                const infoPanel = createInfoPanel();
+                
+                // Initialize the garden
+                const garden = new Garden3D(canvas, plantData, infoPanel);
+                await garden.init();
+                
+                // Create day/night toggle
+                createModeToggle(garden);
+                
+                // Hide loading screen
+                loadingScreen.style.opacity = '0';
+                setTimeout(() => {
+                    loadingScreen.style.display = 'none';
+                }, 500);
+            };
+            document.body.appendChild(gardenScript);
+        });
+    </script>
+</body>
+</html>

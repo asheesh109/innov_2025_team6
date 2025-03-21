@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Plant Information Website</title>
+  <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+
+  <!-- DotLottie Player script -->
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+  <style>
+    :root {
+      --primary-green: #2e7d32;
+      --light-green: #e8f5e9;
+      --medium-green: #81c784;
+      --dark-green: #1b5e20;
+      --accent-color: #ffc107;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--light-green);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: var(--primary-green);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .contact-section {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      border-radius: 0 0 10px 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .animation-container {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .form-container {
+      flex: 1;
+      min-width: 300px;
+      padding: 30px;
+      background-color: white;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: var(--dark-green);
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: border 0.3s;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--primary-green);
+      box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.2);
+    }
+
+    textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+
+    button {
+      background-color: var(--primary-green);
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: var(--dark-green);
+    }
+
+    .success-message {
+      background-color: #d4edda;
+      color: #155724;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 20px;
+      display: none;
+    }
+
+    .error-message {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 15px;
+      border-radius: 6px;
+      margin-top: 20px;
+      display: none;
+    }
+
+    .loading {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .loading-spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: var(--primary-green);
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .back-btn {
+      background-color: var(--primary-green);
+      color: white;
+      flex: 1;
+    }
+
+    #submit-btn {
+      flex: 1;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .contact-info {
+      background-color: var(--light-green);
+      padding: 20px;
+      border-radius: 6px;
+      margin-top: 30px;
+    }
+
+    .contact-info h3 {
+      color: var(--dark-green);
+      margin-bottom: 15px;
+    }
+
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      color: var(--primary-green);
+    }
+
+    @media (max-width: 768px) {
+
+      .animation-container,
+      .form-container {
+        flex: 100%;
+      }
+
+      .animation-container {
+        order: 2;
+      }
+
+      .form-container {
+        order: 1;
+      }
+    }
+
+    /* For the player to be centered nicely */
+    dotlottie-player {
+      margin: 0 auto;
+    }
+
+    /* Hidden class for the botcheck field */
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you! Send us a message and we'll get back to you soon.</p>
+    </header>
+
+    <div class="contact-section">
+      <div class="animation-container">
+        <dotlottie-player src="https://lottie.host/5966f811-28db-4c19-8a2f-9784cdfe430e/BW8p5IzYES.lottie"
+          background="transparent" speed="1" style="width: 600px; height: 600px" loop autoplay>
+        </dotlottie-player>
+      </div>
+
+      <div class="form-container">
+        <form id="contact-form" method="POST">
+          <!-- Web3Forms access key -->
+          <input type="hidden" name="access_key" value="1c1b957c-5ff8-438f-a2f9-d6a7b9440060">
+
+          <!-- Optional: Subject field -->
+          <input type="hidden" name="subject" value="New Contact Form Submission - Plant Info Website">
+
+          <!-- Optional: Custom From Name -->
+          <input type="hidden" name="from_name" value="Plant Information Website">
+
+          <!-- Anti-spam botcheck field -->
+          <input type="checkbox" name="botcheck" class="hidden">
+
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required
+              placeholder="What would you like to ask or share with us?"></textarea>
+          </div>
+
+          <!-- Optional: Add additional fields like this -->
+          <input type="hidden" name="website" value="Plant Information Website">
+
+          <div class="button-group">
+            <button type="submit" id="submit-btn">Send Message</button>
+            <button type="button" id="back-btn" class="back-btn">Back</button>
+          </div>
+
+          <div id="result" class="success-message" style="display: none;"></div>
+        </form>
+
+        <div class="loading" id="loading">
+          <div class="loading-spinner"></div>
+          <p>Sending your message...</p>
+        </div>
+
+        <div class="contact-info">
+          <h3>Other Ways to Connect</h3>
+          <p><i>📍</i> Mumbai, Maharashtra, India</p>
+          <p><i>📞</i> 8850852269</p>
+          <p><i>📧</i> plantopediaa@gmail.com</p>
+          <p><i>🕐</i> Mon-Fri: 9 AM - 5 PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    // Form submission handling with Web3Forms
+    const form = document.getElementById('contact-form');
+    const result = document.getElementById('result');
+    const loading = document.getElementById('loading');
+    const submitBtn = document.getElementById('submit-btn');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      // Show loading spinner
+      loading.style.display = 'block';
+
+      // Disable submit button to prevent multiple submissions
+      submitBtn.disabled = true;
+
+      // Hide any previous result message
+      result.style.display = 'none';
+
+      // Get form data and convert to JSON
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+
+      // Submit form to Web3Forms API
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: json
+      })
+        .then(async (response) => {
+          let json = await response.json();
+
+          // Hide loading spinner
+          loading.style.display = 'none';
+
+          // Show result message
+          result.style.display = 'block';
+
+          if (response.status == 200) {
+            result.innerHTML = "Thank you for your message! We'll get back to you soon.";
+            result.className = "success-message";
+          } else {
+            console.log(response);
+            result.innerHTML = json.message || "Something went wrong!";
+            result.className = "error-message";
+          }
+        })
+        .catch(error => {
+          // Hide loading spinner
+          loading.style.display = 'none';
+
+          // Show error message
+          result.style.display = 'block';
+          result.className = "error-message";
+          result.innerHTML = "Something went wrong! Please try again later.";
+          console.log(error);
+        })
+        .finally(() => {
+          // Reset form and re-enable submit button
+          form.reset();
+          submitBtn.disabled = false;
+
+          // Hide result message after 5 seconds
+          setTimeout(() => {
+            result.style.display = 'none';
+          }, 5000);
+        });
+    });
+
+    const backBtn = document.getElementById('back-btn');
+
+// Add click event listener for the back button to navigate to home page
+backBtn.addEventListener('click', function() {
+  window.location.href = 'index.html'; // Change this to your home page URL
+});
+  </script>
+</body>
+
+</html>

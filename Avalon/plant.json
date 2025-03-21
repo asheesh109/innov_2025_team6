@@ -1,0 +1,1457 @@
+ [
+        {
+            "id": 1,
+            "common_name": "Ashwagandha",
+            "scientific_name": "Withania somnifera",
+            "description": "Ashwagandha is a small, woody shrub that grows about 2 feet in height. It has oval leaves and bell-shaped flowers that contain orange-red berries. The root of the plant is the part most commonly used in herbal medicine. Known as 'Indian Ginseng' or 'Winter Cherry', it has been a staple in Ayurvedic medicine for over 3,000 years. The name 'Ashwagandha' comes from Sanskrit, meaning 'smell of horse', referring both to the root's distinct odor and its traditional belief to impart the vigor and strength of a stallion.",
+            "medicinal_uses": [
+                "Reduces stress and anxiety",
+                "Improves cognitive function",
+                "Boosts immunity",
+                "Enhances physical performance",
+                "Helps with insomnia",
+                "Balances thyroid hormones",
+                "Reduces inflammation",
+                "Supports adrenal function"
+            ],
+            "medical_description": "Ashwagandha is classified as an adaptogen, helping the body manage stress. Its active compounds, withanolides, have been shown to reduce cortisol levels and modulate GABA receptors, explaining its anxiolytic effects. Clinical studies have demonstrated its efficacy in improving sleep quality, reducing anxiety scores, and enhancing cognitive performance. The root extract has shown promise in reducing inflammation markers and supporting immune function. In Ayurveda, it's considered a Rasayana (rejuvenator) that promotes longevity and vitality. Recent research suggests potential benefits for neurodegenerative conditions like Alzheimer's and Parkinson's disease due to its neuroprotective properties.",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy loam soil with pH 7.5-8.0",
+                "climate": "Dry, subtropical regions",
+                "temperature": "20-35°C",
+                "water_requirements": "Moderate, drought-tolerant",
+                "sunlight": "Full sun to partial shade"
+            },
+            "how_to_grow": "Ashwagandha is best grown from seeds sown directly in the field after the last frost. Prepare the soil by adding compost and ensuring good drainage. Sow seeds 1/4 inch deep and 10-12 inches apart. Germination typically occurs within 10-15 days. Water moderately, allowing soil to dry between waterings. The plant is relatively low-maintenance and drought-resistant once established. Avoid overwatering as it can lead to root rot. Harvest roots after 150-180 days when the berries are ripe and leaves begin to dry. Carefully dig around the plant to extract the entire root system. Roots can be dried in shade for 7-10 days before processing.",
+            "native_regions": [
+                "India",
+                "North Africa",
+                "Middle East"
+            ],
+            "related_diseases_treated": [
+                "Anxiety disorders",
+                "Insomnia",
+                "Arthritis",
+                "Neurodegenerative diseases",
+                "Stress-related disorders",
+                "Hypothyroidism",
+                "Male infertility",
+                "Chronic fatigue syndrome"
+            ],
+            "active_compounds": [
+                "Withanolides",
+                "Alkaloids",
+                "Steroidal lactones",
+                "Saponins",
+                "Iron"
+            ],
+            "cultivation_period": "150-180 days",
+            "photo_url": "https://files.nccih.nih.gov/ashwagandha-credit-oregon-s-wild-harvest-a-square-medium-res.jpg",
+            "traditional_preparation": "Dried root powder mixed with milk or water, often consumed before bedtime. Traditional dose ranges from 3-6 grams of dried root powder daily. Can also be prepared as decoction or used in medicated oils for external application."
+        },
+        {
+            "id": 2,
+            "common_name": "Aloe Vera",
+            "scientific_name": "Aloe barbadensis miller",
+            "description": "Aloe Vera is a succulent plant with thick, fleshy leaves that contain a clear gel. The leaves are green to grey-green, with some varieties showing white flecks on the upper and lower stem surfaces. The plant grows in a rosette pattern and can reach 60-100 cm in height. The leaf margins have small, white teeth. Aloe vera produces yellow tubular flowers on a spike that can grow up to 90 cm tall. The plant has been used medicinally for thousands of years across various civilizations including Egypt, Greece, and China. Its name derives from Arabic 'Alloeh' meaning 'shining bitter substance' and Latin 'vera' meaning 'true'.",
+            "medicinal_uses": [
+                "Treats burns and wounds",
+                "Moisturizes skin",
+                "Reduces dental plaque",
+                "Lowers blood sugar levels",
+                "Aids digestion",
+                "Accelerates healing of mouth ulcers",
+                "Reduces constipation",
+                "Anti-aging properties for skin"
+            ],
+            "medical_description": "Aloe vera contains over 75 potentially active constituents including vitamins, enzymes, minerals, sugars, lignin, saponins, salicylic acids, and amino acids. The gel has significant anti-inflammatory properties attributed to its inhibition of the cyclooxygenase pathway. Clinical studies have confirmed its efficacy in treating first and second-degree burns, accelerating wound healing by increasing collagen synthesis and cross-linking. The plant's immunomodulatory properties help in reducing UV-induced immunosuppression. Internally, aloe vera juice has shown benefits for inflammatory bowel conditions and has mild laxative effects due to anthraquinones present in the latex layer. Recent research indicates potential benefits in glycemic control for type 2 diabetes patients through its ability to reduce fasting blood glucose levels.",
+            "growing_conditions": {
+                "soil": "Sandy, well-drained soil with pH 7.0-8.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-35°C (ideal 21-27°C)",
+                "water_requirements": "Low, drought-tolerant",
+                "sunlight": "Bright, indirect sunlight to partial shade"
+            },
+            "how_to_grow": "Aloe vera is easily propagated through offsets (pups) that grow from the base of the mother plant. Select a pot with drainage holes and use cactus potting mix or regular potting soil mixed with perlite or coarse sand. Plant the offset after allowing the cut end to callus for 1-2 days. Place in bright, indirect sunlight and water thoroughly but infrequently, allowing the soil to dry completely between waterings. During winter, reduce watering. Fertilize sparingly (once every 2-3 months) with diluted balanced fertilizer. Repot when the plant becomes root-bound, typically every 2-3 years. Mature plants can be harvested by cutting outer leaves at the base. Allow the yellow sap to drain before extracting the gel.",
+            "native_regions": [
+                "Arabian Peninsula",
+                "Naturalized in India",
+                "Mediterranean regions",
+                "North Africa"
+            ],
+            "related_diseases_treated": [
+                "Skin disorders (psoriasis, eczema)",
+                "Digestive issues (IBS, constipation)",
+                "Diabetes",
+                "Sunburn",
+                "Inflammatory conditions",
+                "Oral mucositis",
+                "Seborrheic dermatitis",
+                "Minor burns and wounds"
+            ],
+            "active_compounds": [
+                "Aloin",
+                "Emodin",
+                "Acemannan",
+                "Polysaccharides",
+                "Glycoproteins",
+                "Salicylic acid",
+                "Saponins",
+                "Sterols"
+            ],
+            "cultivation_period": "3-4 years for maturity, can live for 12+ years",
+            "photo_url": "https://files.nccih.nih.gov/aloe-vera-steven-foster-square.jpg",
+            "traditional_preparation": "Fresh gel applied topically or juice consumed orally. For topical use, the leaf is split open and the clear gel is applied directly to the affected area. For internal use, the gel is carefully separated from the latex layer (which contains aloin) and processed into juice or powder. Traditional dose is 30-50 ml of juice twice daily."
+        },
+        {
+            "id": 3,
+            "common_name": "Cardamom",
+            "scientific_name": "Elettaria cardamomum",
+            "description": "Cardamom is a perennial herb with long, zingiberaceous leaves and white flowers with blue stripes and yellow borders. The fruit is a small capsule containing numerous small seeds. The plant grows up to 2-4 meters tall and belongs to the ginger family (Zingiberaceae). Known as the 'Queen of Spices', cardamom is the third most expensive spice in the world after saffron and vanilla. There are two main varieties: green cardamom (Elettaria cardamomum) and black cardamom (Amomum subulatum). Green cardamom has a more delicate, sweet flavor while black cardamom has a smokier, more robust taste. The plant produces rhizomes that spread horizontally underground, giving rise to new shoots.",
+            "medicinal_uses": [
+                "Aids digestion",
+                "Freshens breath",
+                "Improves cardiovascular health",
+                "Relieves respiratory issues",
+                "Anti-inflammatory properties",
+                "Helps in detoxification",
+                "Improves oral health",
+                "Enhances appetite"
+            ],
+            "medical_description": "Cardamom contains a complex mixture of volatile oils, with 1,8-cineole and α-terpinyl acetate being the major components responsible for its characteristic aroma and medicinal properties. The seeds exhibit carminative, stomachic, and antispasmodic activities, making them effective for digestive disorders. Clinical studies have demonstrated its ability to reduce gastric acid secretion and protect against ulcers through increased mucus production. The essential oil has significant antimicrobial properties against common oral pathogens, explaining its traditional use in mouth fresheners. Cardamom also shows hypotensive effects by acting as a calcium channel blocker, potentially benefiting patients with hypertension. Its bronchodilatory properties make it useful in asthma and bronchitis treatment. Recent research indicates potential anticancer properties through induction of apoptosis in certain cancer cell lines.",
+            "growing_conditions": {
+                "soil": "Rich, loamy soil with good drainage and high organic content, pH 6.0-6.5",
+                "climate": "Tropical, humid with partial shade",
+                "temperature": "10-35°C (ideal 22-30°C)",
+                "water_requirements": "High, requires regular rainfall or irrigation (1500-2500 mm annually)",
+                "sunlight": "Filtered sunlight, grows naturally under forest canopy"
+            },
+            "how_to_grow": "Cardamom is typically propagated through rhizome division or seeds. For rhizome propagation, select healthy, disease-free rhizomes with at least two shoots and plant at a depth of 5-10 cm with 2-3 meters spacing between plants. For seed propagation, fresh seeds are sown in nursery beds and transplanted after 6-8 months. The plant requires 75-80% shade, often provided by intercropping with trees like silver oak or areca nut. Regular irrigation is essential, especially during dry periods. Apply organic mulch to retain moisture and suppress weeds. Fertilize with balanced NPK fertilizer supplemented with organic manure. Plants begin flowering after 2-3 years, with harvesting possible from the third year onwards. Harvest capsules when they're fully developed but still green. Dry carefully at low temperatures to preserve the volatile oils.",
+            "native_regions": [
+                "Western Ghats of Southern India",
+                "Sri Lanka",
+                "Guatemala (cultivated)",
+                "Tanzania (cultivated)"
+            ],
+            "related_diseases_treated": [
+                "Digestive disorders (indigestion, flatulence)",
+                "Bad breath (halitosis)",
+                "Respiratory conditions (asthma, bronchitis)",
+                "Urinary problems",
+                "Dental infections",
+                "Hypertension",
+                "Metabolic syndrome",
+                "Depression and anxiety"
+            ],
+            "active_compounds": [
+                "Cineole (eucalyptol)",
+                "Terpinyl acetate",
+                "Limonene",
+                "Sabinene",
+                "Linalool",
+                "Myrcene",
+                "Alpha-terpineol",
+                "Borneol"
+            ],
+            "cultivation_period": "3 years for first harvest, productive for 10-15 years",
+            "photo_url": "https://www.jiomart.com/images/product/original/rvziuyebic/cloud-farm-hybrid-elam-ancha-elaichi-cardamom-plant-200-mm-cf_o12-product-images-orvziuyebic-p602994104-1-202307071236.jpg?im=Resize=(1000,1000)",
+            "traditional_preparation": "Seeds used whole or ground in cooking, or brewed as tea. For medicinal purposes, 1-2 grams of powdered seeds can be consumed with honey or warm water. For respiratory conditions, cardamom tea is prepared by boiling 4-5 crushed pods in water. For digestive issues, chewing 1-2 pods after meals is traditional practice."
+        },
+        {
+            "id": 4,
+            "common_name": "Cinnamon",
+            "scientific_name": "Cinnamomum verum",
+            "description": "Cinnamon is a small evergreen tree characterized by oval-shaped leaves, thick bark, and a pleasant fragrance. The inner bark is used as a spice and for medicinal purposes. The tree grows to a height of 10-15 meters with a thin crown. Young shoots are green, turning reddish-brown as they mature. The leaves are leathery, 7-18 cm long, with a spicy odor when crushed. Flowers are small, yellowish-white, arranged in panicles. True cinnamon (Cinnamomum verum, also called Ceylon cinnamon) is native to Sri Lanka and southern India, while Cassia cinnamon (Cinnamomum cassia) is a related species commonly used as a less expensive alternative. The bark harvested from the stems of the trees curls into rolls known as 'quills' during the drying process.",
+            "medicinal_uses": [
+                "Lowers blood sugar levels",
+                "Reduces inflammation",
+                "Improves heart health",
+                "Antioxidant properties",
+                "Antimicrobial effects",
+                "Enhances cognitive function",
+                "Helps with weight management",
+                "Relieves menstrual discomfort"
+            ],
+            "medical_description": "Cinnamon contains cinnamaldehyde, which is responsible for most of its medicinal properties. Clinical studies have demonstrated its ability to improve insulin sensitivity and lower fasting blood glucose levels, making it beneficial for type 2 diabetes management. The polyphenols in cinnamon have potent antioxidant activity, neutralizing free radicals and reducing oxidative stress. Research shows cinnamon can reduce LDL cholesterol and triglycerides while maintaining HDL levels, potentially reducing cardiovascular risk. Its anti-inflammatory properties work through inhibition of NF-κB signaling pathways. Cinnamaldehyde also exhibits broad-spectrum antimicrobial activity against bacteria, fungi, and viruses, including drug-resistant strains. Recent neurological research suggests cinnamon may help",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy loam with pH 4.5-6.5",
+                "climate": "Tropical, hot and humid",
+                "temperature": "20-30°C (optimal 27°C)",
+                "water_requirements": "Moderate to high (1500-2500 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Cinnamon is typically propagated through seeds or stem cuttings. Fresh seeds should be sown immediately as they lose viability quickly. Prepare seedbeds with well-draining soil mixed with organic matter. For stem cuttings, select semi-hardwood sections 15-20 cm long with 2-3 nodes and plant in a mixture of sand, soil, and compost. Maintain high humidity during the rooting phase. Transplant to the field when seedlings reach 15-20 cm height, spacing plants 2-3 meters apart. Young plants benefit from partial shade. Apply organic mulch to retain moisture and suppress weeds. Fertilize with balanced NPK fertilizer supplemented with organic compost. Prune regularly to encourage bushy growth. Harvest begins after 2-3 years when the bark develops a brownish color. Coppicing (cutting stems near ground level) encourages new shoots for subsequent harvests. The bark is carefully peeled, dried, and allowed to curl into 'quills'.",
+            "native_regions": [
+                "Sri Lanka",
+                "Southern India",
+                "Myanmar",
+                "Indonesia"
+            ],
+            "related_diseases_treated": [
+                "Type 2 diabetes",
+                "Cardiovascular diseases",
+                "Digestive disorders",
+                "Bacterial and fungal infections",
+                "Neurodegenerative diseases",
+                "Metabolic syndrome",
+                "Polycystic ovary syndrome",
+                "Irritable bowel syndrome"
+            ],
+            "active_compounds": [
+                "Cinnamaldehyde",
+                "Eugenol",
+                "Linalool",
+                "Cinnamic acid",
+                "Cinnamate",
+                "Proanthocyanidins",
+                "Catechins",
+                "Coumarin (higher in Cassia cinnamon)"
+            ],
+            "cultivation_period": "2-3 years for first harvest, productive for 35-40 years",
+            "photo_url": "https://www.terraorganics.in/image/cache/catalog/Herbals/Cinamon1-900x900.jpg",
+            "traditional_preparation": "Dried bark used as sticks or ground into powder for cooking and medicinal teas. For blood sugar management, 1-6 grams of powder daily is typically used. Cinnamon tea is prepared by steeping a stick in hot water for 10-15 minutes. Essential oil is used topically when diluted with carrier oils. In Ayurveda, cinnamon is often combined with honey or ghee as an anupana (vehicle) to enhance its therapeutic effects."
+        },
+        {
+            "id": 5,
+            "common_name": "Clove",
+            "scientific_name": "Syzygium aromaticum",
+            "description": "Clove is an aromatic flower bud of an evergreen tree. The buds are harvested when they are pink and then dried until they turn brown. The tree grows up to 8-12 meters tall with large leaves and crimson flowers. The clove tree has a pyramidal shape with grayish bark and large, shiny, leathery leaves that are oppositely arranged. The flower buds initially have a pale hue, gradually turning green and then bright red when ready for harvesting. The term 'clove' comes from the Latin word 'clavus', meaning nail, due to its nail-like appearance. The tree can live for over 100 years and begins producing flower buds after 4-5 years. Each tree can produce up to 34 kg of dried buds annually when mature.",
+            "medicinal_uses": [
+                "Relieves toothache",
+                "Improves digestion",
+                "Anti-inflammatory properties",
+                "Antimicrobial effects",
+                "Relieves respiratory conditions",
+                "Enhances liver function",
+                "Regulates blood sugar",
+                "Aphrodisiac properties"
+            ],
+            "medical_description": "Clove's medicinal properties are primarily attributed to eugenol, which constitutes 70-90% of its essential oil. Eugenol has potent analgesic and local anesthetic properties, explaining its traditional use for dental pain. Clinical studies confirm its effectiveness as a topical anesthetic comparable to benzocaine. The essential oil demonstrates broad-spectrum antimicrobial activity against gram-positive, gram-negative bacteria, and fungi, including drug-resistant strains. Clove's anti-inflammatory effects operate through inhibition of cyclooxygenase-2 (COX-2) and lipoxygenase pathways. Research indicates significant antioxidant capacity, with an ORAC value higher than most spices. Studies suggest potential anticancer properties through induction of apoptosis and cell cycle arrest in various cancer cell lines. Recent investigations show promising results for metabolic syndrome management, with improvements in insulin sensitivity and lipid profiles in animal models.",
+            "growing_conditions": {
+                "soil": "Rich, loamy soil with good drainage, pH 5.5-7.0",
+                "climate": "Tropical, humid",
+                "temperature": "20-30°C (optimal 25-28°C)",
+                "water_requirements": "High (1500-3000 mm rainfall annually)",
+                "sunlight": "Partial shade for young plants, full sun for mature trees"
+            },
+            "how_to_grow": "Clove is primarily propagated through seeds, which must be fresh as they lose viability rapidly. Select fully ripe fruits that have fallen naturally, remove the pulp, and sow immediately in nursery beds or polybags filled with rich, well-draining soil. Seeds germinate within 10-15 days and seedlings are ready for transplanting after 6-8 months when they reach 25-30 cm height. Space plants 6-7 meters apart in the field. Young plants benefit from shade trees until established. Apply organic mulch around the base to retain moisture and control weeds. Irrigate regularly during dry periods. Fertilize with balanced NPK fertilizer supplemented with organic manure. Prune to maintain shape and remove dead branches. Harvest flower buds when they change from green to pinkish-red but before they open. Carefully hand-pick clusters and separate buds from stems. Dry in the sun for 4-5 days until they turn dark brown.",
+            "native_regions": [
+                "Maluku Islands in Indonesia",
+                "Cultivated in India",
+                "Madagascar",
+                "Tanzania",
+                "Sri Lanka"
+            ],
+            "related_diseases_treated": [
+                "Dental pain",
+                "Digestive disorders",
+                "Respiratory infections",
+                "Inflammatory conditions",
+                "Fungal infections",
+                "Diabetes",
+                "Liver disorders",
+                "Sexual dysfunction"
+            ],
+            "active_compounds": [
+                "Eugenol",
+                "Eugenyl acetate",
+                "Beta-caryophyllene",
+                "Flavonoids",
+                "Tannins",
+                "Triterpenoids",
+                "Oleanolic acid",
+                "Crategolic acid"
+            ],
+            "cultivation_period": "4-5 years for first harvest, productive for 80-100 years",
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xAy3BYvpvJ5aVzems4ySVuktW4R5xldRHQ&s",
+            "traditional_preparation": "Dried buds used whole or ground in cooking, or oil extracted for medicinal use. For toothache, clove oil is applied directly to the affected area using a cotton swab. For digestive issues, 1-2 cloves can be chewed after meals. Clove tea is prepared by steeping 3-4 buds in hot water for 10 minutes. In Ayurveda, clove powder is often mixed with honey for cough and respiratory conditions."
+        },
+        {
+            "id": 6,
+            "common_name": "Tulsi (Holy Basil)",
+            "scientific_name": "Ocimum sanctum",
+            "description": "Tulsi is an aromatic perennial plant with hairy stems and purple-tinged green leaves. It grows to about 1-2 feet in height and is considered sacred in Hindu tradition. There are three main varieties: Rama Tulsi (green leaves), Krishna Tulsi (purple leaves), and Vana Tulsi (wild variety). The plant has a strong, pleasant aroma with notes of clove, lemon, and mint. Tulsi produces small, tubular flowers that are purplish in color, arranged in elongated racemes. The seeds are tiny, yellow to reddish-brown. In Hindu households, Tulsi is often grown in a special structure called 'Tulsi Vrindavan' in the courtyard and is worshipped daily. The name 'Tulsi' comes from Sanskrit, meaning 'the incomparable one', highlighting its revered status.",
+            "medicinal_uses": [
+                "Reduces stress and anxiety",
+                "Boosts immunity",
+                "Lowers blood sugar and cholesterol",
+                "Protects against infections",
+                "Improves respiratory health",
+                "Enhances kidney function",
+                "Relieves headaches",
+                "Supports liver detoxification"
+            ],
+            "medical_description": "Tulsi contains a complex array of phytochemicals with adaptogenic properties that help the body counter physical, chemical, and biological stressors. Clinical studies demonstrate its ability to normalize cortisol levels and reduce anxiety scores comparable to some anxiolytic medications. Its immunomodulatory effects are attributed to compounds like eugenol, rosmarinic acid, and ursolic acid, which enhance T-helper cell activity and natural killer cell function. Tulsi exhibits significant antimicrobial activity against a wide range of pathogens, including multi-drug resistant strains. Research confirms its bronchodilatory effects beneficial in asthma and bronchitis through inhibition of inflammatory mediators and mast cell stabilization. Studies show tulsi can reduce fasting blood glucose and glycated hemoglobin levels in type 2 diabetes patients. Its hepatoprotective properties are evidenced by its ability to increase antioxidant enzyme levels and reduce liver enzyme markers in hepatotoxicity models.",
+            "growing_conditions": {
+                "soil": "Well-drained, fertile soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-40°C (optimal 25-30°C)",
+                "water_requirements": "Moderate",
+                "sunlight": "Full sun to partial shade"
+            },
+            "how_to_grow": "Tulsi can be propagated through seeds or stem cuttings. For seed propagation, sow seeds 1/4 inch deep in well-draining soil. Germination occurs within 1-2 weeks. For stem cuttings, select healthy stems 10-15 cm long with 4-5 nodes, remove lower leaves, and plant in moist soil or water until roots develop. Transplant when seedlings reach 10-15 cm height, spacing plants 45-60 cm apart. Water regularly but avoid waterlogging. Apply organic compost or vermicompost for nutrition. Pinch the growing tips to encourage bushier growth and more leaf production. Tulsi is relatively pest-resistant but can be affected by aphids and fungal diseases in humid conditions. Harvest leaves regularly by pinching stems above a pair of leaves, which encourages new growth. For medicinal use, harvest before flowering for maximum potency of active compounds.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Parts of Africa",
+                "Australia (naturalized)"
+            ],
+            "related_diseases_treated": [
+                "Common cold and flu",
+                "Anxiety disorders",
+                "Diabetes",
+                "Respiratory conditions (asthma, bronchitis)",
+                "Fever",
+                "Kidney stones",
+                "Headaches and migraines",
+                "Skin disorders"
+            ],
+            "active_compounds": [
+                "Eugenol",
+                "Ursolic acid",
+                "Rosmarinic acid",
+                "Carvacrol",
+                "Linalool",
+                "Oleanolic acid",
+                "Beta-caryophyllene",
+                "Methyl chavicol"
+            ],
+            "cultivation_period": "Annual in temperate climates, perennial in tropical regions",
+            "photo_url": "https://exoticflora.in/cdn/shop/products/8EXgcOzqVM_1080x.jpg?v=1599196405",
+            "traditional_preparation": "Fresh leaves consumed raw, dried leaves used in tea, or extracted as essential oil. For respiratory conditions, 10-15 fresh leaves can be chewed daily or made into tea by steeping a handful of leaves in hot water for 5-10 minutes. Tulsi juice is prepared by grinding leaves with water and straining. In Ayurveda, tulsi is often combined with honey, ginger, or black pepper to enhance its therapeutic effects."
+        },
+        {
+            "id": 7,
+            "common_name": "Turmeric",
+            "scientific_name": "Curcuma longa",
+            "description": "Turmeric is a rhizomatous herbaceous perennial plant of the ginger family. It has yellow-orange rhizomes that are used as a culinary spice and for medicinal purposes. The plant grows up to 1 meter tall with long, narrow leaves arranged alternately on the stem. The leaves are bright green, large (up to 45 cm long), and arranged in two rows. Flowers are pale yellow, grouped in spikes, and emerge from the green bracts. The rhizomes develop underground, forming a complex branching structure with a bright orange-yellow interior when cut. Turmeric has been used in India for thousands of years as a spice, dye, and medicinal herb. The name comes from the Latin 'terra merita' meaning 'meritorious earth', referring to the color of ground turmeric resembling mineral pigments.",
+            "medicinal_uses": [
+                "Powerful anti-inflammatory",
+                "Antioxidant properties",
+                "Improves brain function",
+                "Reduces risk of heart disease",
+                "May prevent cancer",
+                "Alleviates arthritis symptoms",
+                "Aids in digestion",
+                "Enhances wound healing"
+            ],
+            "medical_description": "Turmeric's primary bioactive compound, curcumin, exhibits potent anti-inflammatory effects by inhibiting multiple inflammatory pathways, including NF-κB, COX-2, and 5-LOX. Clinical trials demonstrate efficacy comparable to some non-steroidal anti-inflammatory drugs in conditions like rheumatoid arthritis and osteoarthritis, with fewer side effects. Curcumin's antioxidant capacity works both directly by neutralizing free radicals and indirectly by inducing antioxidant enzymes. Research shows curcumin can cross the blood-brain barrier and may help clear amyloid plaques associated with Alzheimer's disease. It demonstrates neuroprotective effects through anti-inflammatory and antioxidant mechanisms. Cardiovascular benefits include improved endothelial function, reduced LDL oxidation, and decreased platelet aggregation. Numerous studies indicate anticancer potential through multiple mechanisms, including inhibition of cancer cell proliferation, induction of apoptosis, and suppression of angiogenesis. Curcumin's poor bioavailability is enhanced when combined with piperine from black pepper.",
+            "growing_conditions": {
+                "soil": "Well-drained, fertile loamy soil with pH 4.5-7.5",
+                "climate": "Tropical, warm and humid",
+                "temperature": "20-30°C (optimal 24-28°C)",
+                "water_requirements": "High during growing season (1500-2500 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Turmeric is propagated through rhizome pieces (seed rhizomes). Select healthy, disease-free rhizomes with 2-3 buds and cut into pieces 4-5 cm long. Treat with fungicide before planting to prevent rot. Prepare raised beds 15-20 cm high and 1 meter wide. Plant rhizome pieces 5-7 cm deep, spacing them 25-30 cm apart with buds facing upward. Mulch with organic material to retain moisture and suppress weeds. Water regularly to maintain soil moisture, especially during dry periods. Apply balanced NPK fertilizer supplemented with organic compost. Earthing up (mounding soil around the base) is recommended 45 days after planting. Harvest when the leaves and stems start to dry and turn yellow, typically 8-10 months after planting. Carefully dig up the rhizomes, clean them, and cure by boiling in water for 45-60 minutes before drying in the sun for 10-15 days.",
+            "native_regions": [
+                "Southern India",
+                "Southeast Asia",
+                "Western India",
+                "Himalayan region"
+            ],
+            "related_diseases_treated": [
+                "Arthritis",
+                "Inflammatory bowel disease",
+                "Alzheimer's disease",
+                "Cardiovascular diseases",
+                "Certain types of cancer",
+                "Metabolic syndrome",
+                "Depression",
+                "Skin conditions (psoriasis, eczema)"
+            ],
+            "active_compounds": [
+                "Curcumin",
+                "Demethoxycurcumin",
+                "Bisdemethoxycurcumin",
+                "Turmerones",
+                "Zingiberene",
+                "Curcumenol",
+                "Curdione",
+                "Germacrone"
+            ],
+            "cultivation_period": "8-10 months",
+            "photo_url": "https://homesteadandchill.com/wp-content/uploads/2019/09/how-to-grow-turmeric-hands-harvest-feature-e1568474428123-1140x1232.jpeg",
+            "traditional_preparation": "Dried rhizome ground into powder for cooking, or mixed with milk (Golden Milk). For medicinal use, 1-3 grams of dried powder daily is typical. Golden Milk is prepared by mixing 1/2 teaspoon turmeric powder with warm milk and honey, often with added black pepper to enhance absorption. Turmeric paste is made by mixing the powder with water or oil for topical application on skin conditions or wounds. In Ayurveda, turmeric is often combined with other herbs like neem for skin conditions or ginger for digestive issues."
+        },
+        {
+            "id": 8,
+            "common_name": "Neem",
+            "scientific_name": "Azadirachta indica",
+            "description": "Neem is a fast-growing tree with wide, spreading branches and dense, rounded crown. It can grow up to 15-20 meters tall and has serrated leaves and white, fragrant flowers. The trunk is relatively short with rough, fissured bark. The leaves are pinnate, 20-40 cm long, with 20-30 medium to dark green leaflets. Flowers are small, white, and arranged in drooping panicles. The fruit is a smooth, olive-like drupe that varies in shape from elongate to roundish and contains a sweet pulp and one seed. Neem is known as the 'village pharmacy' in India due to its numerous medicinal applications. The Sanskrit name 'Nimba' means 'bestower of good health'. Neem trees are extremely hardy and can survive in poor soil conditions and drought.",
+            "medicinal_uses": [
+                "Treats skin disorders",
+                "Dental care",
+                "Anti-parasitic",
+                "Blood purifier",
+                "Liver protection",
+                "Anti-diabetic properties",
+                "Contraceptive effects",
+                "Insect repellent"
+            ],
+            "medical_description": "Neem contains over 140 biologically active compounds, with azadirachtin being the most studied for its insecticidal and medicinal properties. Clinical studies confirm neem's efficacy in treating various skin conditions through its antimicrobial, anti-inflammatory, and immunomodulatory effects. Research demonstrates significant activity against dermatophytes, Candida, and bacteria responsible for acne and other skin infections. Neem's hepatoprotective properties are attributed to its ability to reduce lipid peroxidation and enhance antioxidant enzyme activity in the liver. Studies show neem can lower blood glucose levels by enhancing insulin receptor sensitivity and inhibiting intestinal glucosidase. Its contraceptive effects have been documented in both males and females, with potential for development as a non-hormonal contraceptive. Neem oil exhibits broad-spectrum activity against malaria parasites, including drug-resistant strains. Dental research confirms its effectiveness in reducing plaque formation and treating gingivitis comparable to chlorhexidine.",
+            "growing_conditions": {
+                "soil": "Well-drained, even poor and stony soils with pH 6.2-7.0",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-40°C (optimal 25-35°C)",
+                "water_requirements": "Low, drought-tolerant (500-1200 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Neem can be propagated through seeds, root suckers, or tissue culture. For seed propagation, collect fresh, ripe fruits, remove the pulp, and dry in shade for 3-4 days. Sow seeds 1-2 cm deep in well-draining soil. Germination occurs within 1-2 weeks. Seedlings are ready for transplanting when they reach 30-60 cm height, typically after 3-4 months. Space trees 5-8 meters apart. Young trees require regular watering until established, after which they become highly drought-tolerant. Apply organic compost during planting and annually thereafter. Prune to maintain shape and remove dead branches. Neem is relatively pest-resistant but may be affected by scale insects and mealy bugs in some regions. Trees begin flowering and fruiting after 3-5 years. For medicinal use, leaves can be harvested year-round, while fruits are collected when ripe, typically in summer.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Parts of Africa",
+                "Middle East"
+            ],
+            "related_diseases_treated": [
+                "Skin infections",
+                "Dental problems",
+                "Malaria",
+                "Diabetes",
+                "Liver disorders",
+                "Intestinal worms",
+                "Acne and eczema",
+                "Viral diseases (chicken pox, warts)"
+            ],
+            "active_compounds": [
+                "Azadirachtin",
+                "Nimbin",
+                "Nimbidin",
+                "Quercetin",
+                "Salannin",
+                "Gedunin",
+                "Mahmoodin",
+                "Gallic acid"
+            ],
+            "cultivation_period": "3-5 years for first harvest, lives for 150-200 years",
+            "photo_url": "https://www.lilplants.com/wp-content/uploads/2017/08/Neem-Tree-Plant-2-1-600x600.jpg",
+            "traditional_preparation": "Leaves used in decoction, oil extracted from seeds, bark used in powdered form. For skin conditions, neem paste is prepared by grinding fresh leaves with water. For dental care, twigs are used as natural toothbrushes. Neem tea is made by boiling 10-15 leaves in water for 10-15 minutes. For internal parasites, 1-2 grams of dried leaf powder is taken with water. In Ayurveda, neem is often combined with turmeric for skin conditions or with bitter herbs like guduchi for purifying blood."
+        },
+        {
+            "id": 9,
+            "common_name": "Brahmi",
+            "scientific_name": "Bacopa monnieri",
+            "description": "Brahmi is a creeping herb with small, succulent leaves and white or purple flowers. It typically grows in wetlands and muddy shores. The plant spreads horizontally with multiple branches, forming mats on the surface. Leaves are oblong, 1-2 cm long, arranged oppositely on the stem, and are thick with a smooth texture. The flowers are small (about 1 cm in diameter), white to pale blue with five petals, and appear singly at leaf axils. Brahmi is often confused with Centella asiatica (Gotu Kola), which is also sometimes called Brahmi in northern India. The name 'Brahmi' is derived from 'Brahma', the creator god in Hinduism, reflecting its association with knowledge and cognitive enhancement. It has been used in Ayurvedic medicine for over 3,000 years, particularly for improving memory and treating cognitive disorders.",
+            "medicinal_uses": [
+                "Enhances memory and cognitive function",
+                "Reduces anxiety and stress",
+                "Treats epilepsy",
+                "Anti-inflammatory properties",
+                "Improves attention and concentration",
+                "Adaptogenic effects",
+                "Antioxidant protection",
+                "Supports longevity"
+            ],
+            "medical_description": "Brahmi's cognitive-enhancing effects are primarily attributed to bacoside compounds, which modulate neurotransmitter systems and promote neuronal communication. Clinical studies demonstrate significant improvements in memory acquisition, retention, and recall in both healthy individuals and those with cognitive impairment. Research shows Brahmi enhances dendrite formation in neurons, potentially explaining its long-term cognitive benefits. Its anxiolytic effects operate through modulation of the GABA system, comparable to some benzodiazepines but without sedation or dependence. Studies confirm its efficacy in reducing anxiety scores and cortisol levels in stressed individuals. Brahmi's antiepileptic properties are evidenced by its ability to modulate various neurotransmitter systems and stabilize neural membranes. Research indicates neuroprotective effects against oxidative damage and beta-amyloid toxicity, suggesting potential benefits in neurodegenerative conditions. Recent studies demonstrate its ability to enhance cerebral blood flow and mitochondrial function in brain cells.",
+            "growing_conditions": {
+                "soil": "Moist, clayey soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-35°C (optimal 20-30°C)",
+                "water_requirements": "High, prefers wetlands or consistently moist soil",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Brahmi is easily propagated through stem cuttings or division of established plants. For stem cuttings, select healthy stems 10-15 cm long with several nodes, remove lower leaves, and plant in consistently moist soil or shallow water. Roots develop within 1-2 weeks. For division, separate portions of established plants ensuring each section has roots and stems. Plant in containers or garden beds that can remain consistently moist. Brahmi can be grown in regular garden soil with ample watering, but thrives in boggy conditions or shallow water gardens. It can also be grown as a marginal aquatic plant in ponds or water features. Fertilize sparingly with balanced liquid fertilizer diluted to half strength. Harvest by cutting stems 5 cm above the soil level, allowing regrowth. The plant grows rapidly in favorable conditions and may need containment in some settings. For medicinal use, harvest leaves and stems when the plant is actively growing for maximum potency.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Australia",
+                "North and South America",
+                "East and Southeast Asia"
+            ],
+            "related_diseases_treated": [
+                "Alzheimer's disease",
+                "Anxiety disorders",
+                "ADHD",
+                "Epilepsy",
+                "Memory disorders",
+                "Parkinson's disease",
+                "Depression",
+                "Age-related cognitive decline"
+            ],
+            "active_compounds": [
+                "Bacosides A and B",
+                "Bacopasaponins",
+                "Alkaloids",
+                "Flavonoids",
+                "Betulinic acid",
+                "Stigmasterol",
+                "Brahmine",
+                "Herpestine"
+            ],
+            "cultivation_period": "Perennial, harvestable within 3-4 months after planting",
+            "photo_url": "https://www.greendna.in/cdn/shop/products/brahmileaves_1200x1200.jpg?v=1592237079",
+            "traditional_preparation": "Fresh leaves consumed, dried powder mixed with honey or ghee, or prepared as juice. For cognitive enhancement, 5-10 grams of fresh leaves can be consumed daily or 300-600 mg of dried powder taken with warm milk. Brahmi ghrita is a traditional Ayurvedic preparation made by cooking Brahmi with ghee (clarified butter). Brahmi oil is prepared by infusing the herb in a base oil like coconut or sesame for external application on the scalp to promote mental clarity."
+        },
+        {
+            "id": 10,
+            "common_name": "Amla (Indian Gooseberry)",
+            "scientific_name": "Phyllanthus emblica",
+            "description": "Amla is a medium-sized deciduous tree with feathery leaves. The fruit is round, light green, and has a sour, astringent taste. It's known for its extremely high vitamin C content. The tree grows to a height of 8-18 meters with a crooked trunk and spreading branches. Leaves are simple, subsessile, closely set along slender branchlets, giving a feathery appearance. The flowers are small, greenish-yellow, unisexual, and appear in axillary clusters. The fruit is nearly spherical, 2-3 cm in diameter, with a smooth, hard outer layer and six vertical stripes. The Sanskrit name 'Amalaki' means 'the sustainer', reflecting its importance in Ayurvedic medicine. Amla is considered one of the most important rejuvenating herbs in Ayurveda and is a key ingredient in many formulations including Chyawanprash and Triphala.",
+            "medicinal_uses": [
+                "Boosts immunity",
+                "Improves digestion",
+                "Enhances hair and skin health",
+                "Regulates blood sugar",
+                "Supports liver function",
+                "Promotes longevity",
+                "Improves eye health",
+                "Reduces inflammation"
+            ],
+            "medical_description": "Amla contains one of the highest concentrations of vitamin C in the plant kingdom (20-30 times that of oranges), stabilized by tannins that prevent its degradation during processing and storage. Clinical studies demonstrate significant immunomodulatory effects through enhancement of natural killer cell activity and increased production of IL-2 and IFN-γ. Research confirms its hepatoprotective properties against various toxins through antioxidant mechanisms and increased glutathione levels. Amla shows remarkable efficacy in reducing LDL cholesterol and triglycerides while increasing HDL levels, comparable to some statins but without side effects. Studies indicate significant hypoglycemic activity through enhanced insulin secretion and inhibition of alpha-glucosidase. Its anti-inflammatory effects operate through inhibition of COX-2 and 5-LOX enzymes. Research demonstrates potent antioxidant capacity with an ORAC value higher than most fruits. Clinical trials show improvements in skin elasticity, moisture content, and reduction in wrinkles with regular consumption or topical application.",
+            "growing_conditions": {
+                "soil": "Well-drained, fertile soil with pH 6.5-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "10-40°C (optimal 18-35°C)",
+                "water_requirements": "Moderate, drought-tolerant once established (800-1500 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Amla is propagated through seeds, root suckers, or grafting. For seed propagation, extract seeds from ripe fruits, dry in shade for 2-3 days, and sow in nursery beds or polybags. Germination occurs within 2-3 weeks. Seedlings are ready for transplanting when they reach 30-45 cm height, typically after 6-8 months. Space trees 6-8 meters apart. For commercial orchards, grafting on wild amla rootstock is preferred for early fruiting and consistent quality. Young trees require regular watering until established. Apply organic compost during planting and annually thereafter. Mulch around the base to retain moisture and control weeds. Prune to maintain shape and remove dead branches. Trees begin bearing fruit after 5-7 years from seed (3-4 years if grafted). Harvest fruits when they turn light green to yellowish-green, typically in winter months. For medicinal use, fruits are collected when fully mature but still firm.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "China",
+                "Malaysia"
+            ],
+            "related_diseases_treated": [
+                "Common cold and flu",
+                "Digestive disorders",
+                "Diabetes",
+                "Liver diseases",
+                "Anemia",
+                "Hyperlipidemia",
+                "Premature aging",
+                "Ophthalmic disorders"
+            ],
+            "active_compounds": [
+                "Vitamin C (ascorbic acid)",
+                "Gallic acid",
+                "Ellagic acid",
+                "Emblicanin A & B",
+                "Quercetin",
+                "Kaempferol",
+                "Phyllemblin",
+                "Tannins"
+            ],
+            "cultivation_period": "5-7 years for first harvest from seed, productive for 60-70 years",
+            "photo_url": "https://d1xls0wlmfol3j.cloudfront.net/wp-content/uploads/2019/04/01112000/Amla-Abundance-3.jpg",
+            "traditional_preparation": "Fresh fruits consumed raw, dried and powdered, or processed into juice, pickle, or candy. For medicinal use, 1-2 fresh fruits can be consumed daily or 3-5 grams of dried powder taken with honey or warm water. Amla juice is prepared by crushing fresh fruits and straining. Triphala, a traditional formulation containing equal parts of amla, haritaki, and bibhitaki, is taken as 3-5 grams with warm water before bed for digestive health and detoxification."
+        },
+        {
+            "id": 11,
+            "common_name": "Ginger",
+            "scientific_name": "Zingiber officinale",
+            "description": "Ginger is a flowering plant whose rhizome is widely used as a spice and medicine. It belongs to the Zingiberaceae family, which also includes turmeric and cardamom. The plant grows to about 3-4 feet tall with narrow, glossy green leaves arranged in two ranks on each stem. The flowers are greenish-yellow with purple lips and appear in cone-shaped spikes. The rhizome (underground stem) is the part most commonly used, which is irregularly branched, fleshy, and aromatic. When young, the rhizome is juicy and fleshy with a mild taste; as it matures, it becomes fibrous and spicy. Ginger has been used in Asian medicine for thousands of years, particularly in India and China. The name comes from the Middle English 'gingivere', which was derived from Latin 'zingiber', ultimately from Greek 'zingiberis', which came from Prakrit 'singabera'.",
+            "medicinal_uses": [
+                "Relieves nausea and vomiting",
+                "Anti-inflammatory effects",
+                "Reduces muscle pain and soreness",
+                "Lowers blood sugar levels",
+                "Treats chronic indigestion",
+                "Reduces menstrual pain",
+                "Lowers cholesterol levels",
+                "Improves brain function"
+            ],
+            "medical_description": "Ginger contains over 400 compounds, with gingerols, shogaols, and zingerone being the primary bioactive constituents responsible for its medicinal properties. Clinical studies confirm its effectiveness in treating various forms of nausea, including morning sickness, chemotherapy-induced nausea, and postoperative nausea, comparable to some antiemetic medications but with fewer side effects. Its anti-inflammatory effects operate through inhibition of prostaglandin and leukotriene synthesis and suppression of pro-inflammatory cytokines. Research demonstrates significant analgesic properties in osteoarthritis, with pain reduction and improved mobility after regular consumption. Studies show ginger can reduce fasting blood glucose and HbA1c levels in type 2 diabetes patients through enhanced insulin sensitivity and inhibition of hepatic phosphorylase. Its carminative and prokinetic effects improve gastric emptying and intestinal transit, beneficial in functional dyspepsia and IBS. Recent research indicates neuroprotective potential through antioxidant mechanisms and inhibition of acetylcholinesterase, suggesting benefits for cognitive function and neurodegenerative conditions.",
+            "growing_conditions": {
+                "soil": "Rich, loamy, well-drained soil with pH 5.5-6.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-32°C (optimal 25-30°C)",
+                "water_requirements": "High, consistent moisture (1500-2500 mm rainfall annually)",
+                "sunlight": "Partial shade to filtered sunlight"
+            },
+            "how_to_grow": "Ginger is propagated through rhizome pieces (seed rhizomes). Select fresh, plump rhizomes with visible growth buds or 'eyes'. Cut into pieces 5-7 cm long, each containing at least one growth bud. Allow cut surfaces to dry for 24 hours before planting. Prepare raised beds 15-20 cm high with rich, well-draining soil amended with compost. Plant rhizome pieces 5-7 cm deep, spacing them 20-25 cm apart with buds facing upward. Mulch with organic material to retain moisture and suppress weeds. Water regularly to maintain consistent soil moisture, but avoid waterlogging. Apply balanced organic fertilizer every 4-6 weeks during the growing season. Harvest young ginger (milder flavor) after 4-5 months or mature ginger (more pungent) after 8-10 months when the leaves begin to yellow and dry. For continuous harvest, carefully remove outer portions of the rhizome while leaving some in the ground to continue growing.",
+            "native_regions": [
+                "Southeast Asia",
+                "Indian subcontinent",
+                "Southern China"
+            ],
+            "related_diseases_treated": [
+                "Motion sickness",
+                "Morning sickness",
+                "Osteoarthritis",
+                "Type 2 diabetes",
+                "Functional dyspepsia",
+                "Dysmenorrhea",
+                "Hyperlipidemia",
+                "Alzheimer's disease"
+            ],
+            "active_compounds": [
+                "Gingerols",
+                "Shogaols",
+                "Zingerone",
+                "Paradols",
+                "Zingiberene",
+                "Curcumene",
+                "Bisabolene",
+                "Farnesene"
+            ],
+            "cultivation_period": "8-10 months for mature rhizomes",
+            "photo_url": "https://cdn.britannica.com/19/231119-050-35483892/Indian-ginger-Zingiber-officinale.jpg",
+            "traditional_preparation": "Fresh rhizome used in cooking, dried and powdered, or prepared as tea or juice. For nausea, 1-2 grams of fresh ginger can be chewed or 1/2 teaspoon of powder mixed with water. Ginger tea is prepared by steeping 1-2 teaspoons of grated fresh ginger in hot water for 10 minutes. For inflammatory conditions, 2-4 grams of dried powder daily is typically used. In Ayurveda, ginger is often combined with honey for coughs or with jaggery for menstrual pain."
+        },
+        {
+            "id": 12,
+            "common_name": "Giloy (Guduchi)",
+            "scientific_name": "Tinospora cordifolia",
+            "description": "Giloy is a climbing shrub with heart-shaped leaves and succulent stems. It's known for its immune-boosting and adaptogenic properties. The plant is a large, deciduous climbing shrub that can grow up to 10 meters in length. The stems are succulent with long, thread-like aerial roots, and the bark is creamy white to grey, with warty protuberances. Leaves are heart-shaped, 5-10 cm long, with a long petiole. Flowers are small, yellow or greenish-yellow, appearing in racemes. Fruits are red, pea-sized drupes that turn red when ripe. The Sanskrit name 'Guduchi' means 'that which protects the body', highlighting its importance in Ayurvedic medicine. It's also known as 'Amrita', which means 'nectar of immortality', reflecting its rejuvenating properties. Giloy typically grows on other trees, particularly neem, and is believed to absorb the medicinal properties of its host tree.",
+            "medicinal_uses": [
+                "Boosts immunity",
+                "Treats fever and infections",
+                "Reduces stress and anxiety",
+                "Improves digestion",
+                "Purifies blood",
+                "Anti-diabetic properties",
+                "Anti-inflammatory effects",
+                "Supports liver function"
+            ],
+            "medical_description": "Giloy contains a diverse array of bioactive compounds including alkaloids, glycosides, steroids, and polysaccharides that contribute to its wide-ranging medicinal properties. Clinical studies confirm its immunomodulatory effects through enhancement of macrophage activation, natural killer cell function, and modulation of cytokine production. Research demonstrates significant antipyretic activity comparable to some conventional medications, explaining its traditional use in fevers including dengue and malaria. Its adaptogenic properties are evidenced by its ability to normalize cortisol levels and enhance stress resilience in clinical trials. Studies show giloy can reduce fasting and postprandial blood glucose levels through increased insulin secretion and peripheral glucose utilization. Its hepatoprotective effects are attributed to its antioxidant properties and ability to increase glutathione levels in liver tissue. Research indicates antimicrobial activity against various pathogens, including drug-resistant strains. Recent studies suggest neuroprotective potential through reduction of oxidative stress and inflammatory markers in brain tissue.",
+            "growing_conditions": {
+                "soil": "Well-drained, fertile soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-35°C (optimal 20-30°C)",
+                "water_requirements": "Moderate, can tolerate some drought (800-1500 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Giloy is propagated through stem cuttings or seeds. For stem cuttings, select mature, woody stems 15-20 cm long with 2-3 nodes. Allow cut ends to dry for 24 hours before planting. Plant cuttings horizontally or vertically in well-draining soil, leaving one node above ground. For seed propagation, collect ripe fruits, extract seeds, and sow in nursery beds. Germination occurs within 2-3 weeks. Transplant when seedlings reach 15-20 cm height. Giloy requires support for climbing, so plant near trees, trellises, or other structures. Water regularly until established, then reduce to moderate watering. Apply organic compost annually. Prune to control growth and promote bushiness. The plant grows rapidly in favorable conditions and can become invasive if not managed. Harvest stems when the plant is 2-3 years old, cutting 30-45 cm above ground level to allow regrowth. For medicinal use, stems are collected, removing the bark and cutting into pieces for drying.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Myanmar",
+                "Sri Lanka",
+                "Parts of China"
+            ],
+            "related_diseases_treated": [
+                "Recurrent fevers",
+                "Autoimmune disorders",
+                "Diabetes",
+                "Liver diseases",
+                "Respiratory infections",
+                "Arthritis",
+                "Skin disorders",
+                "Chronic fatigue syndrome"
+            ],
+            "active_compounds": [
+                "Tinosporine",
+                "Berberine",
+                "Palmatine",
+                "Tembetarine",
+                "Tinocordifolin",
+                "Cordioside",
+                "Syringin",
+                "Giloin"
+            ],
+            "cultivation_period": "2-3 years for optimal medicinal potency",
+            "photo_url": "https://gachwala.in/wp-content/uploads/2022/07/imgpsh_fullsize_anim-13.jpg",
+            "traditional_preparation": "Dried stem powder, fresh juice, or decoction. For immune enhancement, 3-6 grams of dried stem powder can be taken daily with warm water. Giloy juice is prepared by crushing fresh stems and extracting the juice. Giloy decoction (kadha) is made by boiling 15-20 grams of dried stem pieces in water until reduced to one-fourth. In Ayurveda, giloy is often combined with ginger for fevers or with turmeric for inflammatory conditions."
+        },
+        {
+            "id": 13,
+            "common_name": "Shatavari",
+            "scientific_name": "Asparagus racemosus",
+            "description": "Shatavari is a climbing plant with feathery foliage and small white flowers. Its tuberous roots are the primary medicinal part. The plant grows up to 1-2 meters in height with woody, thorny stems. The leaves are actually modified stems called cladodes, which are needle-like and arranged in clusters. The true leaves are reduced to small scales. Flowers are small, white, and fragrant, appearing in short racemes. Fruits are small, round berries that turn red when ripe. The roots are succulent, tuberous, and clustered, resembling fingers radiating from a center. The Sanskrit name 'Shatavari' means 'she who possesses a hundred husbands', highlighting its traditional use as a female reproductive tonic. It's considered the most important herb for women in Ayurvedic medicine and is sometimes called the 'Queen of Herbs'.",
+            "medicinal_uses": [
+                "Female reproductive tonic",
+                "Increases breast milk production",
+                "Balances hormones",
+                "Anti-ulcer properties",
+                "Immune system enhancement",
+                "Adaptogenic effects",
+                "Anti-inflammatory properties",
+                "Antioxidant protection"
+            ],
+            "medical_description": "Shatavari contains steroidal saponins, primarily shatavarins, which are structurally similar to human hormones, explaining its effects on the female reproductive system. Clinical studies confirm its galactagogue properties, with significant increases in prolactin levels and milk production in lactating mothers. Research demonstrates its efficacy in managing menopausal symptoms through phytoestrogen activity that helps balance declining estrogen levels. Studies show significant gastroprotective effects comparable to ranitidine, operating through enhanced mucin secretion and prostaglandin synthesis. Its immunomodulatory properties are evidenced by increased antibody production and macrophage activation in clinical trials. Research indicates adaptogenic effects through normalization of cortisol levels and enhanced stress resilience. Studies demonstrate significant antioxidant capacity through free radical scavenging and increased levels of endogenous antioxidant enzymes. Recent research suggests neuroprotective potential through reduction of inflammatory markers and oxidative stress in brain tissue.",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy-loam soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-35°C (optimal 20-30°C)",
+                "water_requirements": "Moderate, can tolerate some drought (800-1500 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Shatavari is propagated through seeds or root divisions. For seed propagation, soak seeds in water for 24 hours before sowing to enhance germination. Sow seeds 1-2 cm deep in well-draining soil. Germination occurs within 2-3 weeks. For root division, separate portions of established plants ensuring each section has several tuberous roots and at least one growing point. Transplant when seedlings reach 15-20 cm height, spacing plants 60-90 cm apart. Provide support for climbing. Water regularly until established, then reduce to moderate watering. Apply organic compost annually. Mulch around the base to retain moisture and control weeds. The plant is relatively pest-resistant but may be affected by aphids and spider mites in some regions. Harvest roots when the plant is 2-3 years old, after the berries have ripened and the aerial parts begin to dry. Carefully dig around the plant to extract the tuberous roots, leaving some for regeneration if desired.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Nepal",
+                "Sri Lanka",
+                "Himalayan regions"
+            ],
+            "related_diseases_treated": [
+                "Female infertility",
+                "Menopausal symptoms",
+                "Lactation insufficiency",
+                "Gastric ulcers",
+                "Immunodeficiency",
+                "Anxiety and stress disorders",
+                "Inflammatory conditions",
+                "Male reproductive disorders"
+            ],
+            "active_compounds": [
+                "Shatavarins I-IV",
+                "Sarsasapogenin",
+                "Asparanin A",
+                "Immunoside",
+                "Diosgenin",
+                "Quercetin",
+                "Rutin",
+                "Asparagamine"
+            ],
+            "cultivation_period": "2-3 years for optimal root development",
+            "photo_url": "https://growbilliontrees.com/cdn/shop/articles/IMG_7307_2048x_21138312-429a-4a03-85d5-af0ad619f6f3.jpg?v=1732879529",
+            "traditional_preparation": "Dried root powder, decoction, or ghrita (medicated ghee). For female reproductive health, 3-6 grams of dried root powder can be taken daily with warm milk. Shatavari milk is prepared by boiling 3-5 grams of powder in milk. Shatavari ghrita is made by cooking the herb with ghee (clarified butter) and is used for enhancing fertility and treating gynecological disorders. In Ayurveda, shatavari is often combined with ashwagandha for reproductive health or with licorice for gastric issues."
+        },
+        {
+            "id": 14,
+            "common_name": "Shankhpushpi",
+            "scientific_name": "Convolvulus pluricaulis",
+            "description": "Shankhpushpi is a perennial herb with blue flowers shaped like a conch shell. It's known for its brain-boosting and memory-enhancing properties. The plant is a prostrate, spreading herb with hairy stems and small, elliptic-oblong leaves. The flowers are solitary, funnel-shaped, and blue or white in color, resembling a conch shell (shankha in Sanskrit). The plant grows to about 30 cm in height and spreads horizontally. The roots are thin and cylindrical. In different regions of India, various plants are known as Shankhpushpi, including Evolvulus alsinoides, Clitoria ternatea, and Canscora decussata, but Convolvulus pluricaulis is considered the true Shankhpushpi in classical Ayurvedic texts. The name comes from Sanskrit 'shankha' (conch shell) and 'pushpi' (flower), referring to the shape of its flowers. It's been used in Ayurvedic medicine for thousands of years as a 'medhya rasayana' (brain and memory tonic).",
+            "medicinal_uses": [
+                "Enhances memory and cognitive function",
+                "Reduces anxiety and stress",
+                "Treats insomnia",
+                "Anti-convulsant properties",
+                "Improves learning ability",
+                "Calms the nervous system",
+                "Supports brain health",
+                "Enhances meditation practice"
+            ],
+            "medical_description": "Shankhpushpi contains a variety of bioactive compounds including tropane alkaloids, flavonoids, and coumarins that contribute to its nootropic and anxiolytic properties. Clinical studies demonstrate significant improvements in memory acquisition, retention, and recall through enhancement of acetylcholine synthesis and reduction of acetylcholinesterase activity. Research shows it increases cerebral blood flow and glucose utilization in brain tissue, potentially explaining its cognitive-enhancing effects. Its anxiolytic properties operate through modulation of GABA and serotonin systems, comparable to some benzodiazepines but without sedation or dependence. Studies confirm its efficacy in reducing anxiety scores and cortisol levels in stressed individuals. Research demonstrates anticonvulsant activity through stabilization of neural membranes and modulation of various neurotransmitter systems. Studies indicate neuroprotective effects against oxidative damage and beta-amyloid toxicity, suggesting potential benefits in neurodegenerative conditions. Recent research suggests it may enhance neuroplasticity through increased BDNF (Brain-Derived Neurotrophic Factor) expression.",
+            "growing_conditions": {
+                "soil": "Sandy-loam, well-drained soil with pH 6.5-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-35°C (optimal 20-30°C)",
+                "water_requirements": "Low to moderate, drought-tolerant (600-1200 mm rainfall annually)",
+                "sunlight": "Full sun to partial shade"
+            },
+            "how_to_grow": "Shankhpushpi is propagated through seeds or stem cuttings. For seed propagation, sow seeds 0.5 cm deep in well-draining soil. Germination occurs within 7-14 days. For stem cuttings, select healthy stems 10-15 cm long with several nodes, remove lower leaves, and plant in moist soil. Roots develop within 2-3 weeks. Transplant when seedlings reach 10-15 cm height, spacing plants 30-45 cm apart. Water regularly until established, then reduce to moderate watering. The plant is drought-tolerant once established. Apply organic compost sparingly as excessive fertility can reduce medicinal potency. Mulch around the base to retain moisture and control weeds. The plant is relatively pest-resistant but may be affected by aphids and spider mites in some regions. Harvest the entire plant when it begins flowering for maximum medicinal potency, typically 3-4 months after planting. For sustainable harvesting, cut 5 cm above ground level, allowing regrowth.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Nepal",
+                "Pakistan",
+                "Afghanistan"
+            ],
+            "related_diseases_treated": [
+                "Memory disorders",
+                "Anxiety disorders",
+                "Insomnia",
+                "Epilepsy",
+                "ADHD",
+                "Neurodegenerative diseases",
+                "Hypertension",
+                "Depression"
+            ],
+            "active_compounds": [
+                "Convolamine",
+                "Convolvine",
+                "Convosine",
+                "Scopoletin",
+                "Kaempferol",
+                "Beta-sitosterol",
+                "Ceryl alcohol",
+                "Tropane alkaloids"
+            ],
+            "cultivation_period": "Annual or perennial, harvestable within 3-4 months",
+            "photo_url": "https://www.apnikheti.com/upload/crops/6883idea99shankhpushpi-side-effects-in-hindi.jpg",
+            "traditional_preparation": "Dried whole plant powder, fresh juice, or medicated ghee. For cognitive enhancement, 3-6 grams of dried powder can be taken daily with warm milk and honey. Shankhpushpi juice is prepared by grinding fresh plants with water and straining. Shankhpushpi ghrita is made by cooking the herb with ghee (clarified butter) and is used for enhancing memory and treating neurological disorders. In Ayurveda, shankhpushpi is often combined with brahmi and ashwagandha for synergistic effects on brain function."
+        },
+        {
+            "id": 15,
+            "common_name": "Haritaki",
+            "scientific_name": "Terminalia chebula",
+            "description": "Haritaki is a deciduous tree with oval leaves and yellowish-white flowers. Its fruit is the primary medicinal part and is one of the three ingredients in the famous Ayurvedic formulation Triphala. The tree grows to a height of 15-25 meters with a trunk diameter of up to 1 meter. The bark is dark brown with longitudinal cracks. Leaves are ovate to elliptic, 7-12 cm long, arranged alternately or suboppositely. Flowers are small, pale yellow or white, with an unpleasant odor, arranged in terminal spikes or short panicles. The fruit is a drupe, 2-4 cm long, ovoid to ellipsoid, yellow to orange-brown when ripe, with five longitudinal ridges. The Sanskrit name 'Haritaki' is derived from 'Hari' (Lord Shiva), as it's believed to have originated from drops of water that fell from Shiva's eyes. It's also known as 'Abhaya' (fearless) due to its ability to protect against diseases. In Tibetan medicine, it's called the 'King of Medicines'.",
+            "medicinal_uses": [
+                "Promotes digestion",
+                "Cleanses and detoxifies the body",
+                "Improves vision",
+                "Enhances intelligence",
+                "Treats cough and respiratory conditions",
+                "Balances all three doshas",
+                "Rejuvenates tissues",
+                "Promotes longevity"
+            ],
+            "medical_description": "Haritaki contains a complex array of bioactive compounds including tannins, chebulinic acid, chebulagic acid, and anthraquinones that contribute to its diverse medicinal properties. Clinical studies confirm its efficacy in treating constipation and promoting regular bowel movements through mild laxative effects and enhancement of intestinal motility. Research demonstrates significant antimicrobial activity against various pathogens, including drug-resistant strains, explaining its traditional use in infections. Studies show haritaki can reduce blood glucose levels through increased insulin secretion and enhanced peripheral glucose utilization. Its hepatoprotective effects are attributed to its antioxidant properties and ability to increase glutathione levels in liver tissue. Research indicates significant anti-inflammatory activity through inhibition of pro-inflammatory cytokines and modulation of NF-κB signaling. Studies demonstrate its efficacy in treating oral diseases, including dental caries and periodontal disease, through antimicrobial and anti-inflammatory mechanisms. Recent research suggests neuroprotective potential through reduction of oxidative stress and inflammatory markers in brain tissue.",
+            "growing_conditions": {
+                "soil": "Well-drained, loamy soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-40°C (optimal 20-35°C)",
+                "water_requirements": "Moderate, drought-tolerant once established (800-1500 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Haritaki is propagated through seeds or root suckers. For seed propagation, collect ripe fruits, extract seeds, and sow in nursery beds or polybags. Seeds have hard seed coats, so scarification (nicking the seed coat) or soaking in water for 24-48 hours is recommended to enhance germination. Germination occurs within 2-4 weeks. Transplant when seedlings reach 30-45 cm height, typically after 6-8 months. Space trees 6-8 meters apart. Young trees require regular watering until established. Apply organic compost during planting and annually thereafter. Mulch around the base to retain moisture and control weeds. Prune to maintain shape and remove dead branches. Trees begin bearing fruit after 5-7 years. Harvest fruits when they turn yellowish-green to brown, typically in autumn or early winter. For medicinal use, fruits are collected when fully mature but still firm.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Nepal",
+                "Sri Lanka",
+                "Myanmar"
+            ],
+            "related_diseases_treated": [
+                "Constipation",
+                "Digestive disorders",
+                "Respiratory infections",
+                "Diabetes",
+                "Liver diseases",
+                "Skin disorders",
+                "Eye diseases",
+                "Neurodegenerative conditions"
+            ],
+            "active_compounds": [
+                "Chebulinic acid",
+                "Chebulagic acid",
+                "Gallic acid",
+                "Ellagic acid",
+                "Tannic acid",
+                "Terchebin",
+                "Anthraquinones",
+                "Flavonoids"
+            ],
+            "cultivation_period": "5-7 years for first harvest, productive for 50-75 years",
+            "photo_url": "https://www.chakrapaniayurveda.com/wp-content/uploads/2021/02/Haritaki.jpg",
+            "traditional_preparation": "Dried fruit powder, decoction, or as part of Triphala. For digestive health, 3-6 grams of dried fruit powder can be taken daily with warm water before bed. Haritaki decoction is prepared by boiling 10-15 grams of crushed fruits in water until reduced to one-fourth. For respiratory conditions, haritaki powder is mixed with honey. In Ayurveda, haritaki is often taken with different anupanas (vehicles) according to the season: with rock salt in summer, with sugar in spring, with honey in autumn, with ginger in rainy season, and with jaggery in winter."
+        },
+        {
+            "id": 16,
+            "common_name": "Guggul",
+            "scientific_name": "Commiphora wightii",
+            "description": "Guggul is a small, thorny shrub that produces a yellowish resin with powerful medicinal properties. The plant is a slow-growing, highly branched shrub or small tree reaching 3-4 meters in height. The branches are knotty, crooked, and covered with papery bark that peels off in flakes. Leaves are small, trifoliate, with the terminal leaflet larger than the lateral ones. Flowers are small, reddish to brownish, appearing in small clusters. The most valuable part is the oleo-gum-resin (guggul) that exudes from incisions made in the bark. This resin is yellowish to brownish in color with a balsamic odor and bitter, aromatic taste. The Sanskrit name 'Guggulu' means 'protecting from diseases', highlighting its importance in Ayurvedic medicine. It's mentioned in ancient texts like the Atharva Veda and Sushruta Samhita, particularly for its use in treating obesity, arthritis, and lipid disorders. In traditional medicine, guggul is considered to have 'lekhana' (scraping) property, which helps remove unwanted fat and toxins from the body.",
+            "medicinal_uses": [
+                "Lowers cholesterol and triglycerides",
+                "Treats arthritis and joint pain",
+                "Anti-inflammatory properties",
+                "Weight management",
+                "Skin disorders",
+                "Thyroid regulation",
+                "Detoxification",
+                "Improves circulation"
+            ],
+            "medical_description": "Guggul contains a complex mixture of steroids, diterpenoids, aliphatic esters, and carbohydrates, with guggulsterones E and Z being the primary bioactive compounds. Clinical studies demonstrate significant lipid-lowering effects comparable to some statins, operating through antagonism of the farnesoid X receptor (FXR) and increased LDL receptor binding. Research shows it can reduce total cholesterol by 14-27% and triglycerides by 22-30% in hyperlipidemic patients. Its anti-inflammatory properties operate through inhibition of NF-κB activation and suppression of pro-inflammatory cytokines, with efficacy comparable to some NSAIDs in osteoarthritis and rheumatoid arthritis. Studies indicate it can stimulate thyroid function through increased iodine uptake and conversion of T4 to T3, potentially explaining its traditional use in weight management. Research demonstrates significant antioxidant capacity through free radical scavenging and increased levels of endogenous antioxidant enzymes. Studies show antimicrobial activity against various pathogens, including drug-resistant strains, through disruption of bacterial cell membranes. Recent research suggests cardioprotective effects through improved endothelial function and reduced platelet aggregation.",
+            "growing_conditions": {
+                "soil": "Rocky, well-drained, alkaline soil with pH 7.5-8.5",
+                "climate": "Arid to semi-arid",
+                "temperature": "20-45°C (optimal 25-40°C)",
+                "water_requirements": "Very low, highly drought-tolerant (250-500 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Guggul is propagated through seeds, stem cuttings, or air layering, with the latter two methods being more successful. For seed propagation, collect mature seeds and sow in a well-draining sandy soil mix. Germination is often poor and slow, taking 2-4 weeks. For stem cuttings, select semi-hardwood cuttings 15-20 cm long, treat with rooting hormone, and plant in a sandy medium. For air layering, select a healthy branch, make a small incision, apply rooting hormone, wrap with moist sphagnum moss and plastic, and sever when roots form (typically after 2-3 months). Transplant when seedlings or rooted cuttings are well-established, spacing plants 3-4 meters apart. Water sparingly, only when the soil is completely dry. The plant is adapted to arid conditions and excessive watering can cause root rot. Apply minimal organic fertilizer once yearly. Protect young plants from frost. Guggul is slow-growing and requires patience. For resin collection, make shallow incisions in the bark of mature plants (8-10 years old) during winter. The resin exudes slowly and hardens, after which it can be collected.",
+            "native_regions": [
+                "Western India",
+                "Pakistan",
+                "Bangladesh",
+                "Arid regions of Indian subcontinent"
+            ],
+            "related_diseases_treated": [
+                "Hyperlipidemia",
+                "Obesity",
+                "Rheumatoid arthritis",
+                "Osteoarthritis",
+                "Acne",
+                "Hypothyroidism",
+                "Atherosclerosis",
+                "Inflammatory disorders"
+            ],
+            "active_compounds": [
+                "Guggulsterones",
+                "Myrrh steroids",
+                "Gugulipids",
+                "Guggulsterols",
+                "Myrrhanol",
+                "Commiphoric acids",
+                "Ferulic acid",
+                "Guggultetrol"
+            ],
+            "cultivation_period": "8-10 years for optimal resin production",
+            "photo_url": "https://m.media-amazon.com/images/I/61amI8dyZ7L._AC_UF1000,1000_QL80_.jpg",
+            "traditional_preparation": "Purified resin (Shuddha Guggulu) is the primary form used in medicine. Purification involves boiling raw guggul in various liquids including triphala decoction, cow's urine, or milk, then filtering and drying. For cholesterol management, 500-1000 mg of purified guggul resin is taken daily in divided doses. Guggul is often combined with other herbs like triphala for detoxification, with turmeric for inflammatory conditions, or with kanchanar for thyroid disorders. In traditional practice, guggul formulations are typically taken with warm water after meals."
+        },
+        {
+            "id": 17,
+            "common_name": "Punarnava",
+            "scientific_name": "Boerhavia diffusa",
+            "description": "Punarnava is a spreading perennial herb with small purple-red flowers and a remarkable ability to rejuvenate after being seemingly dried up. The plant has a prostrate or ascending habit, growing to a height of 30-100 cm with spreading branches. The stem is greenish-purple, cylindrical, and swollen at nodes. Leaves are simple, arranged oppositely, with the lower leaves being larger than the upper ones, ovate to round in shape, with wavy margins and whitish undersides. Flowers are small, pink, red, or purple, arranged in small umbels. The fruits are small, ribbed, glandular, and sticky. The root system consists of a thick, fusiform taproot that is yellowish-brown externally and whitish internally. The Sanskrit name 'Punarnava' means 'one which renews itself', referring to the plant's ability to regenerate and flourish after the rainy season, even when it appears completely dried up. This characteristic is symbolic of its rejuvenating properties in Ayurvedic medicine. It's classified as a 'rasayana' (rejuvenative) herb and is particularly valued for its diuretic and hepatoprotective properties.",
+            "medicinal_uses": [
+                "Diuretic effect",
+                "Liver protection",
+                "Kidney disorders",
+                "Anti-inflammatory properties",
+                "Immunomodulatory effects",
+                "Treats edema",
+                "Manages heart conditions",
+                "Rejuvenative tonic"
+            ],
+            "medical_description": "Punarnava contains alkaloids, rotenoids, flavonoids, and ursolic acid, with punarnavine being one of the primary bioactive compounds. Clinical studies confirm its potent diuretic activity comparable to furosemide but with potassium-sparing effects, operating through increased renal blood flow and inhibition of sodium-potassium ATPase. Research demonstrates significant hepatoprotective effects against various hepatotoxins through antioxidant mechanisms and enhancement of liver regeneration. Studies show it can reduce blood glucose levels through increased insulin secretion and enhanced peripheral glucose utilization. Its immunomodulatory properties are evidenced by enhanced lymphocyte proliferation, increased antibody production, and macrophage activation in clinical trials. Research indicates significant anti-inflammatory activity through inhibition of prostaglandin synthesis and modulation of pro-inflammatory cytokines. Studies demonstrate its efficacy in treating edema through improved lymphatic drainage and reduced capillary permeability. Recent research suggests cardioprotective effects through antioxidant mechanisms and calcium channel modulation. Studies confirm its traditional use in kidney disorders through improved glomerular filtration rate and reduced urinary protein excretion in nephrotic syndrome.",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy-loam soil with pH 6.5-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-40°C (optimal 20-35°C)",
+                "water_requirements": "Low to moderate, drought-tolerant (600-1200 mm rainfall annually)",
+                "sunlight": "Full sun to partial shade"
+            },
+            "how_to_grow": "Punarnava is propagated through seeds or root cuttings. For seed propagation, collect mature seeds and sow directly in prepared soil at the onset of the rainy season. Seeds can be sown in rows 30-45 cm apart, with 15-20 cm between plants. Cover lightly with soil. Germination occurs within 7-14 days. For root cuttings, dig up established plants, cut the roots into 5-8 cm pieces, and plant horizontally 2-3 cm deep. Water regularly until established, then reduce to moderate watering. The plant is drought-tolerant once established. Apply minimal organic fertilizer once yearly. Mulch around the base to retain moisture and control weeds. Punarnava is relatively pest-resistant but may be affected by leaf-eating insects in some regions. For medicinal use, harvest the whole plant when flowering, typically 2-3 months after planting. The roots, which contain the highest concentration of active compounds, are best harvested after the rainy season when the plant is fully mature, typically after 4-6 months of growth.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Africa",
+                "South America",
+                "Tropical regions worldwide"
+            ],
+            "related_diseases_treated": [
+                "Edema",
+                "Liver cirrhosis",
+                "Nephrotic syndrome",
+                "Congestive heart failure",
+                "Ascites",
+                "Anemia",
+                "Jaundice",
+                "Urinary tract infections"
+            ],
+            "active_compounds": [
+                "Punarnavine",
+                "Boeravinones",
+                "Ursolic acid",
+                "Rotenoids",
+                "Liriodendrin",
+                "Hypoxanthine",
+                "Punarnavoside",
+                "Beta-sitosterol"
+            ],
+            "cultivation_period": "Annual or perennial, harvestable within 4-6 months",
+            "photo_url": "https://www.herbalplantslive.com/wp-content/uploads/2020/10/coverimage-600x450-1553255406.jpg",
+            "traditional_preparation": "Dried root powder, decoction, or fresh juice. For diuretic effect, 3-6 grams of dried root powder can be taken daily with warm water. Punarnava decoction is prepared by boiling 15-20 grams of dried roots in water until reduced to one-fourth. Fresh juice is extracted from the whole plant and taken in doses of 10-20 ml twice daily. In Ayurveda, punarnava is often combined with gokshura for urinary disorders, with kutki for liver conditions, or with arjuna for heart conditions. For edema, a paste of the root is also applied externally to the affected areas."
+        },
+        {
+            "id": 18,
+            "common_name": "Bael",
+            "scientific_name": "Aegle marmelos",
+            "description": "Bael is a medium-sized, deciduous tree with fragrant flowers and hard-shelled, aromatic fruits. The tree grows to a height of 8-15 meters with a short trunk, thick, soft bark, and spreading, sometimes spiny branches. Leaves are trifoliate, alternate, with leaflets 4-10 cm long, ovate-lanceolate with crenate margins. Flowers are greenish-white, sweet-scented, appearing in lateral panicles. The fruit is the most distinctive feature - a large, spherical to oval berry, 5-15 cm in diameter, with a hard, woody shell. The interior contains a yellow-orange, aromatic pulp with numerous seeds embedded in it. The pulp is sweet, resinous, and astringent. The Sanskrit name 'Bilva' is mentioned in several ancient texts, including the Rigveda and Yajurveda. The tree is considered sacred in Hinduism and is especially associated with Lord Shiva. The trifoliate leaf symbolizes the three aspects of divinity (creation, preservation, and destruction) or the three eyes of Shiva. In Ayurveda, bael is classified as having 'tridoshic' properties, meaning it can balance all three doshas (vata, pitta, and kapha).",
+            "medicinal_uses": [
+                "Treats digestive disorders",
+                "Anti-diarrheal properties",
+                "Manages diabetes",
+                "Relieves constipation",
+                "Treats respiratory conditions",
+                "Cardioprotective effects",
+                "Wound healing",
+                "Antipyretic properties"
+            ],
+            "medical_description": "Bael fruit contains marmelosin, psoralen, marmin, and tannins, with marmelosin being one of the primary bioactive compounds. Clinical studies confirm its efficacy in treating various gastrointestinal disorders through antimicrobial, anti-inflammatory, and mucosal protective mechanisms. Research demonstrates significant anti-diarrheal activity comparable to some conventional medications, operating through antimicrobial effects, increased colonic water and electrolyte reabsorption, and reduced intestinal motility. Studies show it can reduce blood glucose levels through increased insulin secretion, enhanced peripheral glucose utilization, and inhibition of intestinal glucosidase. Its cardioprotective effects are attributed to its antioxidant properties and ability to regulate lipid metabolism. Research indicates significant antimicrobial activity against various pathogens, including drug-resistant strains, through disruption of bacterial cell membranes and inhibition of biofilm formation. Studies demonstrate its efficacy in treating respiratory conditions through bronchodilatory, anti-inflammatory, and antimicrobial mechanisms. Recent research confirms its traditional use in wound healing through enhanced collagen synthesis, angiogenesis, and antimicrobial activity.",
+            "growing_conditions": {
+                "soil": "Well-drained, loamy soil with pH 6.5-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "10-45°C (optimal 20-35°C)",
+                "water_requirements": "Moderate, drought-tolerant once established (700-1500 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Bael is propagated through seeds, root suckers, or grafting. For seed propagation, extract seeds from ripe fruits, wash to remove pulp, and dry in shade. Soak seeds in water for 24 hours before sowing to enhance germination. Sow seeds 1-2 cm deep in well-draining soil. Germination occurs within 2-4 weeks. Transplant when seedlings reach 30-45 cm height, typically after 6-8 months. Space trees 6-8 meters apart. Young trees require regular watering until established. Apply organic compost during planting and annually thereafter. Mulch around the base to retain moisture and control weeds. Prune to maintain shape and remove dead branches. Trees begin bearing fruit after 5-7 years. For medicinal use, fruits are harvested when fully mature but still green, typically in summer. Leaves can be collected year-round, while the bark is harvested from mature trees in small quantities to avoid damaging the tree.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Bangladesh",
+                "Sri Lanka",
+                "Pakistan"
+            ],
+            "related_diseases_treated": [
+                "Dysentery",
+                "Irritable Bowel Syndrome",
+                "Peptic ulcers",
+                "Diabetes",
+                "Constipation",
+                "Bronchitis",
+                "Cardiovascular diseases",
+                "Fever"
+            ],
+            "active_compounds": [
+                "Marmelosin",
+                "Psoralen",
+                "Marmin",
+                "Tannins",
+                "Aegeline",
+                "Lupeol",
+                "Cineole",
+                "Skimmianine"
+            ],
+            "cultivation_period": "5-7 years for first fruit harvest, productive for 50-60 years",
+            "photo_url": "https://i0.wp.com/greenverz.com/wp-content/uploads/2023/04/Greenverz_Bael_Tree_001.jpg?fit=640%2C357&ssl=1",
+            "traditional_preparation": "Ripe fruit pulp, unripe fruit, dried fruit powder, or leaf decoction. For digestive disorders, ripe fruit pulp is mixed with jaggery or honey and consumed. Unripe fruit is sliced, dried, and powdered for use in diarrhea and dysentery. A decoction of bael leaves is used for respiratory conditions. For diabetes, 10-20 ml of fresh juice from unripe fruit is taken on an empty stomach. In Ayurveda, bael is often combined with ginger and honey for digestive disorders or with cardamom and cinnamon for respiratory conditions."
+        },
+        {
+            "id": 19,
+            "common_name": "Arjuna",
+            "scientific_name": "Terminalia arjuna",
+            "description": "Arjuna is a large deciduous tree with a spreading crown and drooping branches. Its bark is the primary medicinal part, known for its cardioprotective properties. The tree grows to a height of 20-25 meters with a thick, smooth, pinkish-grey bark that peels off in thin layers. Leaves are oblong, 10-15 cm long, arranged oppositely or suboppositely. Flowers are small, yellowish-white, arranged in spikes. The fruit is a woody drupe, 2-3 cm long, with five wings, turning brown when ripe. The Sanskrit name 'Arjuna' means 'bright' or 'shining', possibly referring to its smooth bark or its heroic status in Ayurveda, likened to the warrior Arjuna from the Mahabharata. It’s a revered tree in Indian medicine, often planted near water bodies.",
+            "medicinal_uses": [
+                "Supports heart health",
+                "Lowers blood pressure",
+                "Reduces cholesterol",
+                "Antioxidant properties",
+                "Treats wounds",
+                "Improves digestion",
+                "Anti-inflammatory effects",
+                "Enhances stamina"
+            ],
+            "medical_description": "Arjuna’s bark contains arjunolic acid, tannins, and flavonoids that contribute to its cardioprotective effects. Clinical studies demonstrate its efficacy in improving cardiac function, reducing left ventricular hypertrophy, and enhancing exercise tolerance in patients with heart failure. Research shows arjuna can lower systolic and diastolic blood pressure through vasodilation and inhibition of angiotensin-converting enzyme (ACE). Studies confirm its ability to reduce LDL cholesterol and triglycerides while increasing HDL levels, comparable to some statins. Its antioxidant properties neutralize free radicals and reduce oxidative stress in cardiovascular tissues. Research indicates significant wound-healing activity through enhanced collagen synthesis and antimicrobial effects. Studies show anti-inflammatory activity through inhibition of pro-inflammatory cytokines. Recent research suggests potential benefits in managing diabetes through improved insulin sensitivity.",
+            "growing_conditions": {
+                "soil": "Well-drained, loamy soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-40°C (optimal 20-35°C)",
+                "water_requirements": "Moderate, prefers moist conditions near rivers (1000-1500 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Arjuna is propagated through seeds or stem cuttings. For seed propagation, collect ripe fruits, extract seeds, and soak in water for 24-48 hours to enhance germination. Sow seeds 2-3 cm deep in nursery beds. Germination occurs within 2-4 weeks. Transplant when seedlings reach 30-45 cm height, typically after 6-8 months. Space trees 8-10 meters apart. Water regularly until established, preferring moist conditions. Apply organic compost during planting and annually thereafter. Prune to maintain shape and remove dead branches. Trees begin flowering and fruiting after 6-8 years. Harvest bark from mature trees (10+ years) by peeling thin layers from the trunk, ensuring not to girdle the tree. For medicinal use, bark is dried in shade for 10-15 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Myanmar",
+                "Sri Lanka",
+                "Bangladesh"
+            ],
+            "related_diseases_treated": [
+                "Heart failure",
+                "Hypertension",
+                "Hyperlipidemia",
+                "Angina",
+                "Wounds",
+                "Digestive disorders",
+                "Diabetes",
+                "Fatigue"
+            ],
+            "active_compounds": [
+                "Arjunolic acid",
+                "Arjungenin",
+                "Gallic acid",
+                "Ellagic acid",
+                "Tannins",
+                "Flavonoids",
+                "Beta-sitosterol",
+                "Saponins"
+            ],
+            "cultivation_period": "6-8 years for first fruiting, bark harvestable after 10 years",
+            "photo_url": "https://growbilliontrees.com/cdn/shop/articles/arjuna-tree-grow-billion-trees.jpg?v=1712737730",
+            "traditional_preparation": "Dried bark powder, decoction, or medicated ghee. For heart health, 3-6 grams of dried bark powder is taken with warm water or milk. Arjuna decoction is made by boiling 10-15 grams of bark in water until reduced to half. Arjuna ghrita is prepared by cooking the bark with ghee and is used for cardiac tonic purposes. In Ayurveda, it’s often combined with ashwagandha for stamina or with cinnamon for cholesterol management."
+        },
+        {
+            "id": 20,
+            "common_name": "Ashoka",
+            "scientific_name": "Saraca asoca",
+            "description": "Ashoka is a small evergreen tree with vibrant orange-red flowers and dark green leaves. Its bark is used medicinally, especially for female reproductive health. The tree grows to a height of 7-10 meters with a dense, rounded crown. The bark is dark brown to blackish, rough, and channeled. Leaves are pinnate, 15-25 cm long, with 6-12 leaflets that are oblong and leathery. Flowers are fragrant, bright orange-red, turning crimson with age, arranged in dense corymbs. The fruit is a flat, leathery pod, 10-25 cm long, containing 4-8 seeds. The Sanskrit name 'Ashoka' means 'without sorrow', reflecting its traditional use in relieving pain and grief, particularly in women. It’s a sacred tree in Hinduism and Buddhism, often planted near temples.",
+            "medicinal_uses": [
+                "Treats menstrual disorders",
+                "Relieves uterine pain",
+                "Anti-inflammatory properties",
+                "Improves skin health",
+                "Antimicrobial effects",
+                "Supports digestion",
+                "Reduces fever",
+                "Enhances fertility"
+            ],
+            "medical_description": "Ashoka’s bark contains tannins, flavonoids, and glycosides that contribute to its uterine tonic and anti-inflammatory properties. Clinical studies confirm its efficacy in reducing heavy menstrual bleeding and dysmenorrhea through uterine muscle relaxation and modulation of prostaglandin levels. Research demonstrates significant anti-inflammatory activity through inhibition of COX-2 and pro-inflammatory cytokines, supporting its use in pain relief. Studies show ashoka has antimicrobial activity against skin pathogens and urinary tract bacteria, explaining its traditional use in infections. Its antioxidant properties protect against oxidative stress, benefiting skin health and wound healing. Research indicates mild antipyretic effects comparable to some conventional fever reducers. Studies suggest potential benefits in improving fertility through hormonal balancing and enhanced endometrial receptivity. Recent research explores its cardioprotective potential through lipid-lowering effects.",
+            "growing_conditions": {
+                "soil": "Well-drained, fertile loamy soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-35°C (optimal 25-30°C)",
+                "water_requirements": "Moderate to high (1000-2000 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Ashoka is propagated through seeds or stem cuttings. For seed propagation, collect ripe pods, extract seeds, and soak in water for 24 hours. Sow seeds 1-2 cm deep in nursery beds. Germination occurs within 2-3 weeks. Transplant when seedlings reach 30-45 cm height, typically after 6-8 months. Space trees 4-6 meters apart. Water regularly to maintain soil moisture. Apply organic compost during planting and annually thereafter. Mulch around the base to retain moisture and control weeds. Prune to maintain shape and encourage flowering. Trees begin flowering after 3-5 years. Harvest bark from mature trees (8+ years) by peeling thin layers, ensuring sustainability. For medicinal use, bark is dried in shade for 7-10 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Sri Lanka",
+                "Myanmar",
+                "Bangladesh"
+            ],
+            "related_diseases_treated": [
+                "Dysmenorrhea",
+                "Menorrhagia",
+                "Uterine disorders",
+                "Skin infections",
+                "Fever",
+                "Digestive issues",
+                "Infertility",
+                "Inflammatory conditions"
+            ],
+            "active_compounds": [
+                "Catechin",
+                "Epicatechin",
+                "Tannins",
+                "Flavonoids",
+                "Glycosides",
+                "Beta-sitosterol",
+                "Quercetin",
+                "Leucocyanidin"
+            ],
+            "cultivation_period": "3-5 years for flowering, bark harvestable after 8 years",
+            "photo_url": "https://cdn.shopify.com/s/files/1/0523/3252/7770/files/Ashoka_Tree_2_480x480.jpg?v=1713350667",
+            "traditional_preparation": "Dried bark powder, decoction, or syrup. For menstrual health, 3-6 grams of dried bark powder is taken with warm water or milk. Ashoka decoction is made by boiling 10-15 grams of bark in water until reduced to half. Ashokarishta, a fermented herbal tonic, is prepared by steeping the bark with jaggery and water for 1-2 months, taken as 15-30 ml daily. In Ayurveda, it’s often combined with shatavari for reproductive health."
+        },
+        {
+            "id": 21,
+            "common_name": "Gokshura",
+            "scientific_name": "Tribulus terrestris",
+            "description": "Gokshura is a low-growing annual herb with yellow flowers and spiky fruits. It’s known for its diuretic and aphrodisiac properties. The plant spreads along the ground with trailing stems up to 1-2 meters long. Leaves are opposite, pinnate, with 4-8 pairs of small leaflets. Flowers are solitary, yellow, 1-2 cm in diameter, with five petals. The fruit is a woody, star-shaped burr with sharp spines, splitting into five nutlets. The Sanskrit name 'Gokshura' means 'cow’s hoof', possibly referring to the shape of the fruit or its use in treating urinary issues in cattle. It’s widely used in Ayurveda and traditional Chinese medicine for kidney and reproductive health.",
+            "medicinal_uses": [
+                "Supports kidney health",
+                "Enhances libido",
+                "Diuretic properties",
+                "Improves muscle strength",
+                "Reduces inflammation",
+                "Treats urinary disorders",
+                "Lowers blood pressure",
+                "Antioxidant effects"
+            ],
+            "medical_description": "Gokshura contains steroidal saponins, particularly protodioscin, which contribute to its diuretic and aphrodisiac effects. Clinical studies confirm its efficacy in increasing urine output and reducing urinary stone formation through enhanced glomerular filtration and inhibition of calcium oxalate crystallization. Research demonstrates significant aphrodisiac activity through increased testosterone levels and improved sexual function in both men and women. Studies show gokshura can reduce blood pressure through vasodilation and ACE inhibition. Its anti-inflammatory effects operate through inhibition of pro-inflammatory cytokines and COX-2 pathways. Research indicates antioxidant properties that protect against oxidative stress in kidney and reproductive tissues. Studies suggest potential benefits in improving exercise performance and muscle mass through enhanced nitric oxide production. Recent research explores its cardioprotective effects through lipid-lowering and anti-atherosclerotic properties.",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-40°C (optimal 25-35°C)",
+                "water_requirements": "Low, drought-tolerant (500-1000 mm rainfall annually)",
+                "sunlight": "Full sun"
+            },
+            "how_to_grow": "Gokshura is propagated through seeds. Collect ripe fruits, extract seeds by breaking open the burrs, and sow 0.5-1 cm deep in well-draining soil. Germination occurs within 7-14 days. Transplant when seedlings reach 10-15 cm height, spacing plants 30-45 cm apart. Water sparingly, as the plant thrives in dry conditions. Apply organic compost sparingly, as it prefers less fertile soils. The plant grows rapidly and can become invasive. Harvest fruits when they turn brown and spiky, typically 3-4 months after planting. For medicinal use, fruits and roots are collected and dried in shade for 7-10 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Mediterranean region",
+                "Africa",
+                "Australia",
+                "Southern Europe"
+            ],
+            "related_diseases_treated": [
+                "Kidney stones",
+                "Urinary tract infections",
+                "Erectile dysfunction",
+                "Hypertension",
+                "Inflammatory conditions",
+                "Muscle weakness",
+                "Edema",
+                "Diabetes"
+            ],
+            "active_compounds": [
+                "Protodioscin",
+                "Tribulosin",
+                "Saponins",
+                "Flavonoids",
+                "Alkaloids",
+                "Cinnamic acid",
+                "Beta-sitosterol",
+                "Kaempferol"
+            ],
+            "cultivation_period": "3-4 months for harvest",
+            "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnGuBPK7WuckO_KCIsmouXa6XByVklHMhxsg&s",
+            "traditional_preparation": "Dried fruit powder, decoction, or extract. For kidney health, 3-6 grams of dried fruit powder is taken with warm water. Gokshura decoction is made by boiling 10-15 grams of dried fruits in water until reduced to half. In Ayurveda, it’s often combined with punarnava for urinary disorders or with ashwagandha for male vitality."
+        },
+        {
+            "id": 22,
+            "common_name": "Bhringraj",
+            "scientific_name": "Eclipta alba",
+            "description": "Bhringraj is a creeping annual herb with white flowers and dark green leaves. It’s renowned for its hair growth and liver-supporting properties. The plant grows to a height of 20-30 cm with prostrate or ascending stems that root at nodes. Leaves are opposite, lanceolate, 2-5 cm long, with serrated edges. Flowers are small, white, with ray and disc florets, borne in heads. The plant produces small, brown achenes as fruits. The Sanskrit name 'Bhringraj' means 'king of hair', reflecting its prominence in hair care. It’s also known as 'Kesharaj' (ruler of hair) in Ayurveda. Bhringraj is commonly found in wetlands and is a staple in traditional hair oils.",
+            "medicinal_uses": [
+                "Promotes hair growth",
+                "Treats liver disorders",
+                "Improves skin health",
+                "Anti-inflammatory properties",
+                "Relieves pain",
+                "Antimicrobial effects",
+                "Supports digestion",
+                "Reduces stress"
+            ],
+            "medical_description": "Bhringraj contains wedelolactone and coumestans that contribute to its hepatoprotective and hair growth properties. Clinical studies confirm its efficacy in treating liver damage through enhanced antioxidant enzyme activity and reduced lipid peroxidation. Research demonstrates significant hair growth promotion through stimulation of hair follicles and increased anagen phase duration, comparable to minoxidil in some trials. Studies show bhringraj has anti-inflammatory effects through inhibition of NF-κB and COX-2 pathways, supporting its use in pain relief. Its antimicrobial activity targets skin pathogens and fungi, explaining its use in dermatological conditions. Research indicates mild analgesic effects comparable to some NSAIDs. Studies suggest potential benefits in stress reduction through modulation of cortisol levels. Recent research explores its antidiabetic potential through improved insulin sensitivity.",
+            "growing_conditions": {
+                "soil": "Moist, loamy soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-35°C (optimal 25-30°C)",
+                "water_requirements": "High, prefers wet conditions (1000-2000 mm rainfall annually)",
+                "sunlight": "Full sun to partial shade"
+            },
+            "how_to_grow": "Bhringraj is propagated through seeds or stem cuttings. For seed propagation, sow seeds 0.5 cm deep in moist soil. Germination occurs within 7-10 days. For stem cuttings, select healthy stems 10-15 cm long, plant in wet soil, and keep moist until roots develop. Transplant when seedlings reach 10-15 cm height, spacing plants 20-30 cm apart. Water regularly to maintain soil moisture. Apply organic compost sparingly. The plant thrives in wetlands or paddy fields. Harvest the whole plant when flowering, typically 3-4 months after planting. For medicinal use, leaves and stems are dried in shade for 7-10 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "China",
+                "South America"
+            ],
+            "related_diseases_treated": [
+                "Alopecia",
+                "Liver cirrhosis",
+                "Skin infections",
+                "Inflammatory conditions",
+                "Headaches",
+                "Digestive disorders",
+                "Stress-related disorders",
+                "Jaundice"
+            ],
+            "active_compounds": [
+                "Wedelolactone",
+                "Coumestans",
+                "Ecliptine",
+                "Saponins",
+                "Flavonoids",
+                "Triterpenoids",
+                "Alkaloids",
+                "Beta-amyrin"
+            ],
+            "cultivation_period": "3-4 months for harvest",
+            "photo_url": "https://m.media-amazon.com/images/I/513LltK12GL.jpg",
+            "traditional_preparation": "Fresh juice, dried powder, or oil infusion. For hair growth, bhringraj oil is made by infusing dried leaves in coconut oil and applied to the scalp. For liver health, 3-6 grams of dried powder is taken with warm water. Bhringraj juice is prepared by crushing fresh leaves and straining, taken as 5-10 ml daily. In Ayurveda, it’s often combined with amla for hair care or with giloy for liver support."
+        },
+        {
+            "id": 23,
+            "common_name": "Kutki",
+            "scientific_name": "Picrorhiza kurroa",
+            "description": "Kutki is a small perennial herb with bitter roots, found in the Himalayan region. It’s prized for its liver-protective and digestive properties. The plant grows to a height of 15-30 cm with a rosette of oblong, serrated leaves at the base. The stems are short, bearing small, white or pale blue flowers in spikes. The roots are thick, woody, and intensely bitter, covered with a rough, wrinkled skin. The Sanskrit name 'Kutki' refers to its bitter taste, derived from 'kut' (bitter). It’s also known as 'Katuki' in Ayurveda, where it’s valued as a hepatoprotective and detoxifying herb. Kutki grows at high altitudes and is often harvested wild, though cultivation efforts are increasing.",
+            "medicinal_uses": [
+                "Protects liver",
+                "Improves digestion",
+                "Treats fever",
+                "Anti-inflammatory properties",
+                "Boosts immunity",
+                "Relieves respiratory issues",
+                "Antioxidant effects",
+                "Supports skin health"
+            ],
+            "medical_description": "Kutki contains kutkin (picrosides I and II), which are iridoid glycosides responsible for its hepatoprotective effects. Clinical studies confirm its efficacy in treating liver disorders like hepatitis and cirrhosis through enhanced bile secretion, reduced lipid peroxidation, and increased antioxidant enzyme levels. Research demonstrates significant anti-inflammatory activity through inhibition of pro-inflammatory cytokines and COX-2 pathways. Studies show kutki has antipyretic effects comparable to some conventional fever reducers, supporting its use in fevers. Its immunomodulatory properties enhance macrophage activity and cytokine production. Research indicates antimicrobial activity against respiratory pathogens, explaining its traditional use in asthma and bronchitis. Studies suggest potential benefits in managing diabetes through improved glucose metabolism. Recent research explores its anti-cancer potential through induction of apoptosis in liver cancer cells.",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy-loam soil with pH 5.5-6.5",
+                "climate": "Temperate to alpine",
+                "temperature": "10-25°C (optimal 15-20°C)",
+                "water_requirements": "Moderate (800-1200 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Kutki is propagated through seeds or rhizome division. For seed propagation, sow seeds 0.5 cm deep in well-draining soil in spring. Germination occurs within 2-3 weeks at cooler temperatures. For rhizome division, separate healthy rhizomes with buds and plant 5-7 cm deep. Transplant when seedlings reach 10-15 cm height, spacing plants 20-30 cm apart. Water moderately, avoiding waterlogging. Apply organic compost sparingly, as it thrives in nutrient-poor soils. The plant prefers high altitudes (2500-4000 meters). Harvest roots after 2-3 years when the plant matures and aerial parts dry. For medicinal use, roots are dug up, cleaned, and dried in shade for 10-15 days.",
+            "native_regions": [
+                "Himalayan region (India, Nepal, Bhutan)",
+                "Pakistan",
+                "Tibet"
+            ],
+            "related_diseases_treated": [
+                "Hepatitis",
+                "Jaundice",
+                "Fever",
+                "Asthma",
+                "Digestive disorders",
+                "Skin diseases",
+                "Diabetes",
+                "Inflammatory conditions"
+            ],
+            "active_compounds": [
+                "Picroside I & II",
+                "Kutkin",
+                "Apocynin",
+                "Cucurbitacins",
+                "Vanillic acid",
+                "Ferulic acid",
+                "Triterpenoids",
+                "Flavonoids"
+            ],
+            "cultivation_period": "2-3 years for root harvest",
+            "photo_url": "https://example.com/images/kutki.jpg",
+            "traditional_preparation": "Dried root powder or decoction. For liver health, 1-3 grams of dried root powder is taken with warm water. Kutki decoction is made by boiling 5-10 grams of dried roots in water until reduced to half. In Ayurveda, it’s often combined with giloy for detoxification or with turmeric for inflammation."
+        },
+        {
+            "id": 24,
+            "common_name": "Manjistha",
+            "scientific_name": "Rubia cordifolia",
+            "description": "Manjistha is a climbing perennial herb with red roots and small greenish-white flowers. It’s known for its blood-purifying and skin-enhancing properties. The plant has long, slender stems that climb or trail up to 2-3 meters. Leaves are heart-shaped, 5-10 cm long, arranged in whorls of four. Flowers are small, star-shaped, greenish-white to yellowish, borne in loose clusters. The roots are long, cylindrical, and reddish, yielding a red dye traditionally used in textiles. The Sanskrit name 'Manjistha' means 'bright red', referring to the color of its roots. It’s also called 'Rakta Poshaka' (blood nourisher) in Ayurveda, where it’s prized for its detoxifying effects.",
+            "medicinal_uses": [
+                "Purifies blood",
+                "Improves skin health",
+                "Anti-inflammatory properties",
+                "Supports kidney function",
+                "Treats wounds",
+                "Antioxidant effects",
+                "Reduces fever",
+                "Enhances lymphatic system"
+            ],
+            "medical_description": "Manjistha contains anthraquinones, particularly rubiadin and purpurin, which contribute to its blood-purifying and anti-inflammatory properties. Clinical studies confirm its efficacy in treating skin disorders like psoriasis and eczema through inhibition of pro-inflammatory cytokines and enhanced wound healing. Research demonstrates significant antioxidant activity, neutralizing free radicals and reducing oxidative stress in tissues. Studies show manjistha supports kidney function by reducing urinary protein levels and improving glomerular filtration in nephritis models. Its antimicrobial effects target skin pathogens and bacteria, supporting its use in infections. Research indicates mild antipyretic effects and lymphatic drainage enhancement, explaining its traditional use in fever and edema. Recent studies suggest potential anti-cancer activity through induction of apoptosis in certain cancer cell lines.",
+            "growing_conditions": {
+                "soil": "Well-drained, loamy soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "15-35°C (optimal 20-30°C)",
+                "water_requirements": "Moderate (800-1500 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Manjistha is propagated through seeds or stem cuttings. For seed propagation, sow seeds 0.5-1 cm deep in well-draining soil. Germination occurs within 2-3 weeks. For stem cuttings, select healthy stems 15-20 cm long, plant in moist soil, and keep shaded until rooted. Transplant when seedlings reach 15-20 cm height, spacing plants 45-60 cm apart. Provide support for climbing. Water regularly until established, then reduce to moderate watering. Apply organic compost annually. Harvest roots after 2-3 years when they turn deep red. For medicinal use, roots are dug up, cleaned, and dried in shade for 10-15 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Himalayan region",
+                "China"
+            ],
+            "related_diseases_treated": [
+                "Psoriasis",
+                "Eczema",
+                "Acne",
+                "Kidney disorders",
+                "Fever",
+                "Wounds",
+                "Lymphatic congestion",
+                "Inflammatory conditions"
+            ],
+            "active_compounds": [
+                "Rubiadin",
+                "Purpurin",
+                "Munjistin",
+                "Xanthopurpurin",
+                "Alizarin",
+                "Quinones",
+                "Flavonoids",
+                "Triterpenoids"
+            ],
+            "cultivation_period": "2-3 years for root harvest",
+            "photo_url": "https://www.aryanint.com/wp-content/uploads/2017/01/Picrorhiza-kurroa.jpg",
+            "traditional_preparation": "Dried root powder, decoction, or paste. For blood purification, 2-4 grams of dried root powder is taken with warm water. Manjistha decoction is made by boiling 5-10 grams of dried roots in water until reduced to half. For skin health, a paste is prepared by mixing powder with honey or water and applied topically. In Ayurveda, it’s often combined with neem for skin disorders or with turmeric for detoxification."
+        },
+        {
+            "id": 25,
+            "common_name": "Safed Musli",
+            "scientific_name": "Chlorophytum borivilianum",
+            "description": "Safed Musli is a small herbaceous plant with white tuberous roots and lance-shaped leaves. It’s valued as an aphrodisiac and rejuvenative herb. The plant grows to a height of 30-45 cm with a rosette of long, narrow leaves. The roots are white, fleshy, and clustered, resembling small fingers. Flowers are small, white, star-shaped, borne on a spike. The Sanskrit name 'Musli' refers to its root, and 'Safed' means 'white', distinguishing it from other musli varieties. It’s also known as 'Divya Aushadhi' (divine medicine) in Ayurveda for its vitality-enhancing properties. Safed Musli is extensively cultivated in India for its high demand in herbal medicine.",
+            "medicinal_uses": [
+                "Enhances libido",
+                "Boosts vitality",
+                "Improves male fertility",
+                "Reduces fatigue",
+                "Supports immunity",
+                "Anti-inflammatory properties",
+                "Treats diabetes",
+                "Promotes muscle growth"
+            ],
+            "medical_description": "Safed Musli contains saponins, polysaccharides, and mucilage that contribute to its aphrodisiac and adaptogenic effects. Clinical studies confirm its efficacy in improving sperm count, motility, and testosterone levels in men, supporting its use in male infertility. Research demonstrates significant vitality-enhancing effects through increased energy metabolism and reduced oxidative stress. Studies show safed musli can reduce blood glucose levels through enhanced insulin secretion and improved glucose uptake in tissues. Its anti-inflammatory effects operate through inhibition of pro-inflammatory cytokines. Research indicates immunomodulatory properties through enhanced macrophage activity and antibody production. Studies suggest potential benefits in muscle growth through increased protein synthesis and nitric oxide production. Recent research explores its anti-aging potential through antioxidant mechanisms.",
+            "growing_conditions": {
+                "soil": "Well-drained, sandy-loam soil with pH 6.0-7.5",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-35°C (optimal 25-30°C)",
+                "water_requirements": "Moderate (800-1500 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Safed Musli is propagated through tuberous roots or seeds. For root propagation, select healthy tubers with buds, plant 5-7 cm deep in raised beds, spacing them 15-20 cm apart. For seed propagation, sow seeds 0.5 cm deep in nursery beds; germination occurs within 2-3 weeks. Transplant when seedlings reach 10-15 cm height. Water regularly until established, then reduce to moderate watering. Apply organic compost and mulch to retain moisture. Harvest roots after 9-12 months when leaves turn yellow and dry. For medicinal use, roots are dug up, cleaned, and dried in shade for 7-10 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Western Ghats",
+                "Central India"
+            ],
+            "related_diseases_treated": [
+                "Male infertility",
+                "Erectile dysfunction",
+                "Fatigue",
+                "Diabetes",
+                "Weak immunity",
+                "Inflammatory conditions",
+                "Muscle weakness",
+                "Stress-related disorders"
+            ],
+            "active_compounds": [
+                "Saponins",
+                "Polysaccharides",
+                "Mucilage",
+                "Stigmasterol",
+                "Hecogenin",
+                "Asparagine",
+                "Flavonoids",
+                "Alkaloids"
+            ],
+            "cultivation_period": "9-12 months for root harvest",
+            "photo_url": "https://www.sspgroup.co.in/assets/img/agriculture/img19.jpg",
+            "traditional_preparation": "Dried root powder or extract. For vitality, 3-6 grams of dried root powder is taken with warm milk. Safed Musli extract is prepared by boiling roots in water or milk and reducing it. In Ayurveda, it’s often combined with ashwagandha for male health or with shatavari for overall vitality."
+        },
+        {
+            "id": 26,
+            "common_name": "Vacha",
+            "scientific_name": "Acorus calamus",
+            "description": "Vacha is a semi-aquatic perennial herb with sword-shaped leaves and aromatic rhizomes. It’s known for its cognitive-enhancing and digestive properties. The plant grows to a height of 60-120 cm with long, narrow leaves that resemble those of an iris. The rhizomes are creeping, thick, and aromatic, with a pungent smell when crushed. Flowers are small, yellowish-green, borne on a spadix enclosed by a leaf-like spathe. The Sanskrit name 'Vacha' means 'speech', reflecting its traditional use in improving speech and intellect. It’s also called 'Ugragandha' (strong smell) in Ayurveda due to its distinctive aroma. Vacha grows along riverbanks and in marshy areas.",
+            "medicinal_uses": [
+                "Enhances cognitive function",
+                "Improves speech",
+                "Treats digestive disorders",
+                "Relieves anxiety",
+                "Anti-inflammatory properties",
+                "Antimicrobial effects",
+                "Supports respiratory health",
+                "Reduces epilepsy symptoms"
+            ],
+            "medical_description": "Vacha contains beta-asarone and volatile oils that contribute to its nootropic and antispasmodic properties. Clinical studies confirm its efficacy in improving memory and cognitive function through enhanced acetylcholine levels and reduced oxidative stress in brain tissue. Research demonstrates significant anxiolytic effects through modulation of GABA receptors, supporting its use in anxiety disorders. Studies show vacha has antispasmodic and carminative effects, improving gastric motility and reducing bloating. Its anti-inflammatory properties operate through inhibition of pro-inflammatory cytokines. Research indicates antimicrobial activity against oral and respiratory pathogens, explaining its use in infections. Studies suggest potential antiepileptic effects through stabilization of neural membranes. Recent research explores its neuroprotective potential in Alzheimer’s disease through beta-amyloid inhibition.",
+            "growing_conditions": {
+                "soil": "Moist, clayey soil with pH 6.0-7.5",
+                "climate": "Tropical to temperate",
+                "temperature": "15-30°C (optimal 20-25°C)",
+                "water_requirements": "High, prefers wet or submerged conditions (1000-2000 mm rainfall annually)",
+                "sunlight": "Partial shade to full sun"
+            },
+            "how_to_grow": "Vacha is propagated through rhizome division. Select healthy rhizomes with buds, cut into 10-15 cm segments, and plant 5-7 cm deep in wet soil or shallow water. Space plants 30-45 cm apart. Keep soil consistently moist or submerged. Apply organic compost sparingly. The plant thrives in marshes, ponds, or along water edges. Harvest rhizomes after 1-2 years when they thicken and become aromatic. For medicinal use, rhizomes are dug up, cleaned, and dried in shade for 10-15 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Europe",
+                "North America"
+            ],
+            "related_diseases_treated": [
+                "Memory disorders",
+                "Speech impediments",
+                "Anxiety",
+                "Epilepsy",
+                "Digestive issues",
+                "Respiratory infections",
+                "Inflammatory conditions",
+                "Headaches"
+            ],
+            "active_compounds": [
+                "Beta-asarone",
+                "Alpha-asarone",
+                "Calamus oil",
+                "Eugenol",
+                "Caryophyllene",
+                "Sesquiterpenes",
+                "Alkaloids",
+                "Flavonoids"
+            ],
+            "cultivation_period": "1-2 years for rhizome harvest",
+            "photo_url": "https://5.imimg.com/data5/SELLER/Default/2024/2/393497340/KN/IM/UD/89065420/sweet-flag-500x500.png",
+            "traditional_preparation": "Dried rhizome powder or decoction. For cognitive enhancement, 1-2 grams of dried powder is taken with honey. Vacha decoction is made by boiling 5-10 grams of dried rhizomes in water until reduced to half. In Ayurveda, it’s often combined with brahmi for memory or with ginger for digestion."
+        },
+        {
+            "id": 27,
+            "common_name": "Pippali",
+            "scientific_name": "Piper longum",
+            "description": "Pippali is a slender, aromatic climber with small, spike-like fruits. It’s a key spice and medicine in Ayurveda, known for its digestive and respiratory benefits. The plant has heart-shaped leaves, 5-10 cm long, and climbs up to 2-3 meters with the support of trees or trellises. The fruits are small, cylindrical spikes, 2-5 cm long, green when unripe, turning black when dried. The Sanskrit name 'Pippali' means 'pepper', reflecting its pungent taste and relation to black pepper (Piper nigrum). It’s also called 'Maghi' in some texts, meaning 'long'. Pippali is cultivated for both its dried fruits and roots, which are used medicinally.",
+            "medicinal_uses": [
+                "Improves digestion",
+                "Treats respiratory conditions",
+                "Enhances metabolism",
+                "Anti-inflammatory properties",
+                "Boosts immunity",
+                "Relieves pain",
+                "Antioxidant effects",
+                "Supports liver function"
+            ],
+            "medical_description": "Pippali contains piperine and piperlongumine, which contribute to its digestive and bioavailability-enhancing properties. Clinical studies confirm its efficacy in improving gastric secretion and intestinal motility, supporting its use in dyspepsia and IBS. Research demonstrates significant bronchodilatory and expectorant effects, reducing airway inflammation and mucus in asthma and bronchitis. Studies show pippali enhances the bioavailability of other drugs and nutrients through inhibition of P-glycoprotein and CYP3A4 enzymes. Its anti-inflammatory effects operate through inhibition of pro-inflammatory cytokines and NF-κB pathways. Research indicates immunomodulatory properties through enhanced macrophage activity. Studies suggest potential hepatoprotective effects through antioxidant mechanisms. Recent research explores its anti-cancer potential through induction of apoptosis in certain cancer cell lines.",
+            "growing_conditions": {
+                "soil": "Well-drained, loamy soil with pH 6.0-7.0",
+                "climate": "Tropical to subtropical",
+                "temperature": "20-35°C (optimal 25-30°C)",
+                "water_requirements": "Moderate to high (1000-2000 mm rainfall annually)",
+                "sunlight": "Partial shade"
+            },
+            "how_to_grow": "Pippali is propagated through stem cuttings or seeds. For stem cuttings, select healthy stems 15-20 cm long with 2-3 nodes, plant in moist soil with support, and keep shaded until rooted. For seed propagation, sow seeds 0.5 cm deep in nursery beds; germination occurs within 2-3 weeks. Transplant when seedlings reach 15-20 cm height, spacing plants 60-90 cm apart with trellises. Water regularly to maintain soil moisture. Apply organic compost annually. Harvest fruits when they turn dark green, typically 6-8 months after planting, and dry in shade. For medicinal use, fruits and roots are collected and dried for 7-10 days.",
+            "native_regions": [
+                "Indian subcontinent",
+                "Southeast Asia",
+                "Sri Lanka",
+                "Malaysia"
+            ],
+            "related_diseases_treated": [
+                "Indigestion",
+                "Asthma",
+                "Chronic cough",
+                "Liver disorders",
+                "Weak immunity",
+                "Inflammatory conditions",
+                "Metabolic disorders",
+                "Pain syndromes"
+            ],
+            "active_compounds": [
+                "Piperine",
+                "Piperlongumine",
+                "Piperlonguminine",
+                "Sylvestrene",
+                "Caryophyllene",
+                "Sesamin",
+                "Alkaloids",
+                "Volatile oils"
+            ],
+            "cultivation_period": "6-8 months for fruit harvest",
+            "photo_url": "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-sapling/y/q/8/perennial-no-yes-long-paper-chui-jhal-choi-jhal-piper-chaba-live-original-imagh4dq8mhdsjk7.jpeg?q=90&crop=false",
+            "traditional_preparation": "Dried fruit powder, decoction, or medicated ghee. For digestion, 1-2 grams of dried powder is taken with warm water or honey. Pippali decoction is made by boiling 5-10 grams of dried fruits in water until reduced to half. Trikatu (a blend with ginger and black pepper) is commonly used for metabolism. In Ayurveda, it’s often combined with honey for respiratory issues."
+        }
+    ]

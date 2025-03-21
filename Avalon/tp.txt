@@ -1,0 +1,150 @@
+
+      {
+        "id": 8,
+        "question": "What is the primary active compound in Cinnamon responsible for its antimicrobial properties?",
+        "answer_options": [
+          "Curcumin",
+          "Cinnamaldehyde",
+          "Eugenol",
+          "Withanolides"
+        ],
+        "correct_option": 1,
+        "plant_info": "Cinnamaldehyde gives cinnamon its distinctive flavor and aroma, while also providing antimicrobial benefits that have been used in traditional medicine for centuries."
+      },
+
+      {
+        "id": 10,
+        "question": "Which plant is commonly used to treat tooth pain and contains eugenol?",
+        "answer_options": [
+          "Clove",
+          "Fenugreek",
+          "Amla",
+          "Sandalwood"
+        ],
+        "correct_option": 0,
+        "plant_info": "Clove oil is a traditional remedy for toothache due to its natural anesthetic properties from eugenol, which numbs pain and reduces inflammation."
+      },
+      {
+        "id": 11,
+        "question": "Identify this green pod spice that requires high humidity:",
+        "image_url": "./images/Cardamom.jpg",
+        "answer_options": [
+          "Turmeric",
+          "Cardamom",
+          "Clove",
+          "Ashwagandha"
+        ],
+        "correct_option": 1,
+        "plant_info": "Cardamom requires high moisture and a humid climate. It's the third most expensive spice in the world and is used in both sweet and savory dishes, as well as traditional medicine."
+      },
+      {
+        "id": 12,
+        "question": "Which plant takes 15-20 years to mature for its fragrant wood harvest?",
+        "answer_options": [
+          "Neem",
+          "Sandalwood",
+          "Moringa",
+          "Jamun"
+        ],
+        "correct_option": 1,
+        "plant_info": "Sandalwood is slow-growing and highly valued for its aromatic wood, which is used in perfumes, incense, and traditional medicine for its cooling properties."
+      },
+      {
+        "id": 13,
+        "question": "Identify this sacred plant used in Indian rituals:",
+        "image_url": "./images/Tulsi.jpg",
+        "answer_options": [
+          "Neem",
+          "Tulsi",
+          "Turmeric",
+          "Clove"
+        ],
+        "correct_option": 1,
+        "plant_info": "Tulsi (Holy Basil) is considered sacred in India. It has antimicrobial, anti-inflammatory, and adaptogenic properties. Often grown in homes and temples."
+      },
+      {
+        "id": 14,
+        "question": "What is the traditional preparation method for Giloy?",
+        "answer_options": [
+          "Leaf paste applied topically",
+          "Root powder mixed with milk",
+          "Stem boiled into a decoction",
+          "Fruit juiced"
+        ],
+        "correct_option": 2,
+        "plant_info": "Giloy (Tinospora cordifolia) is known as 'Amrita' or the root of immortality in Ayurveda. Its stems are typically boiled into a decoction to boost immunity."
+      },
+      {
+        "id": 15,
+        "question": "Which aromatic bark is shown in this image?",
+        "image_url": "./images/cinnamon.jpeg",
+        "answer_options": [
+          "Neem",
+          "Cinnamon",
+          "Turmeric",
+          "Clove"
+        ],
+        "correct_option": 1,
+        "plant_info": "Cinnamon contains cinnamaldehyde, which is responsible for its antimicrobial properties. It's used to regulate blood sugar and has a warm, sweet flavor used in many cuisines."
+      },
+      {
+        "id": 16,
+        "question": "Which plant is known for lowering blood sugar and has the common name 'Bitter Gourd'?",
+        "answer_options": [
+          "Karela",
+          "Shatavari",
+          "Punarnava",
+          "Brahmi"
+        ],
+        "correct_option": 0,
+        "plant_info": "Karela (Bitter Gourd) contains compounds that act similar to insulin, helping lower blood glucose levels. It's commonly used in diabetes management in traditional medicine."
+      },
+      {
+        "id": 17,
+        "question": "Can you identify this adaptogenic medicinal herb?",
+        "image_url": "./images/Ashwagandha.jpeg",
+        "answer_options": [
+          "Turmeric",
+          "Ashwagandha",
+          "Cardamom",
+          "Neem"
+        ],
+        "correct_option": 1,
+        "plant_info": "Ashwagandha (Withania somnifera) is an adaptogenic herb used to reduce stress and improve sleep. Its root is the most commonly used part in traditional medicine."
+      },
+      {
+        "id": 18,
+        "question": "Which of these plants is native to India and used to boost lactation?",
+        "answer_options": [
+          "Fenugreek",
+          "Coriander",
+          "Lemongrass",
+          "Tamarind"
+        ],
+        "correct_option": 0,
+        "plant_info": "Fenugreek seeds contain compounds that mimic estrogen, helping to increase milk production in nursing mothers. They're often consumed as tea or added to food."
+      },
+      {
+        "id": 19,
+        "question": "What is the cultivation period for Turmeric?",
+        "answer_options": [
+          "60-90 days",
+          "8-10 months",
+          "2-3 years",
+          "15-20 years"
+        ],
+        "correct_option": 1,
+        "plant_info": "Turmeric requires 8-10 months from planting to harvest. The rhizomes are dug up, boiled, and dried to produce the bright yellow powder used in cooking and medicine."
+      },
+      {
+        "id": 20,
+        "question": "Which plant's fruit is rich in Vitamin C and known as Indian gooseberry?",
+        "answer_options": [
+          "Amla",
+          "Jamun",
+          "Bael",
+          "Haritaki"
+        ],
+        "correct_option": 0,
+        "plant_info": "Amla (Indian Gooseberry) contains 20 times more vitamin C than oranges. It's a key ingredient in many Ayurvedic formulations and is known for its immunity-boosting properties."
+      }

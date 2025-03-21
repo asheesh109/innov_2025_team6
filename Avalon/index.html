@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Plant-O-Pedia is a website that provides information about plants and their medicinal properties.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant-O-Pedia</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome for search icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/GLTFLoader.js"></script>
+    
+    <!-- Add chatbot CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Plant-O-Pedia</h1>
+        </div>
+        
+        <!-- Search Panel -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search plants...">
+            <button id="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="garden.html">Virtual Tour</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html" class="signout-btn">Signout</a></li>
+            
+        </ul>
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div class="carousel-container">
+      <!-- Fixed content that stays constant -->
+      <div class="carousel-fixed-content">
+          <h2>Welcome to Plant-O-Pedia</h2>
+          <p>Discover the world of plants</p>
+          <a href="#Learn" ><button class="btn">Learn More</button></a>
+      </div>
+      
+      <!-- Carousel for background images only -->
+      <div class="carousel">
+        <video src="./assets/videos/bg (3).mp4" autoplay muted loop playsinline class="carousel-video"></video>
+      </div>
+    
+  </div>
+  
+
+    <!-- Main Content Section -->
+    <section class="main-content">
+      <section id="about" class="animate-fade-in delay-1">
+        <h2>ABOUT US</h2>
+        <br>
+        <p>The AYUSH sector relies heavily on medicinal plants and herbs, which form the backbone of traditional healing practices. Our Virtual Herbal Garden allows you to explore these plants from the comfort of your home. Discover their medicinal properties, cultivation techniques, and historical significance in traditional medicine.</p>
+      </section>
+<section id="benefits" class="animate-fade-in delay-3">
+  <h2>Benefits of Herbal Medicine</h2>
+  <div class="benefits">
+      <div class="benefit-item">
+          <div class="benefit-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3 class="benefit-title">Natural Healing</h3>
+          <p>Harness the power of nature with fewer side effects than synthetic drugs.</p>
+      </div>
+      <div class="benefit-item">
+          <div class="benefit-icon"><i class="fas fa-history"></i></div>
+          <h3 class="benefit-title">Traditional Wisdom</h3>
+          <p>Based on centuries of knowledge and traditional healing practices.</p>
+      </div>
+      <div class="benefit-item">
+          <div class="benefit-icon"><i class="fas fa-balance-scale"></i></div>
+          <h3 class="benefit-title">Holistic Approach</h3>
+          <p>Addresses the root cause of illness rather than just symptoms.</p>
+      </div>
+      <div class="benefit-item">
+          <div class="benefit-icon"><i class="fas fa-hand-holding-heart"></i></div>
+          <h3 class="benefit-title">Preventative Care</h3>
+          <p>Strengthen your body's natural defenses and prevent illness.</p>
+      </div>
+  </div>
+      </section>
+
+
+        
+        <div id="Learn" class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant1.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product One</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant2.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product Two</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant3.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product Three</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant4.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product Four</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+            
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant5.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product Five</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant6.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product Six</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+            
+            <!-- Card 7 -->
+            <div class="card">
+                <div class="card-image">
+                  <model-viewer src="assets/models/plant7.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+                </div>
+                <div class="card-content">
+                    <h1 class="card-title">Product Seven</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                    <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="card">
+              <div class="card-image">
+                <model-viewer src="assets/models/brahmi.glb" alt="Tulsi" auto-rotate camera-controls></model-viewer>
+              </div>
+              <div class="card-content">
+                  <h1 class="card-title">Product Seven</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p>Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie.</p>
+                  <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+                  <button class="read-more-btn">Read More</button>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 All Rights Reserved By <a href="#" style="text-decoration: none; color: #A8E6CF;">Plant-O-Pedia.</a></p>
+    </footer>
+
+    <!-- Chatbot Elements -->
+    <section class="chat-window">
+        <button class="close"> X </button>
+        <div class="chat">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div class="input-area">
+            <label class="file-upload" title="Upload plant image">
+                <input type="file" id="image-upload" accept="image/*">
+                <img src="./assets/images/camera.png" alt="Upload image">
+            </label>
+            <div class="input-container">
+              
+                <button disabled style="display: none;">
+                    <img src="./images/" alt="send">
+                </button>
+            </div>
+            <div class="footer-text">
+                © 2025 All Rights Reserved
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Chat Button -->
+    <div class="chat-button">
+        <img src="./assets/images/chat-icon.png" alt="start chat">
+    </div>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+    
+    <!-- Chatbot JavaScript -->
+    <script type="importmap">
+        {
+          "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai"
+          }
+        }
+    </script>
+    <script type="module" src="chatbot.js"></script>
+</body>
+</html>
